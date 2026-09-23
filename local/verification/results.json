@@ -1,0 +1,194 @@
+{
+  "date": "2026-09-22T05:35:04.537Z",
+  "isolatedDatabase": true,
+  "results": [
+    {
+      "label": "Login and administrator permissions",
+      "status": "PASS"
+    },
+    {
+      "label": "Legacy migration links unique names and preserves ambiguous/orphan records",
+      "status": "PASS"
+    },
+    {
+      "label": "Unauthenticated requests blocked",
+      "status": "PASS"
+    },
+    {
+      "label": "Incorrect password rejected",
+      "status": "PASS"
+    },
+    {
+      "label": "Inactive account cannot login",
+      "status": "PASS"
+    },
+    {
+      "label": "Read leads",
+      "status": "PASS"
+    },
+    {
+      "label": "Read followups",
+      "status": "PASS"
+    },
+    {
+      "label": "Read proposals",
+      "status": "PASS"
+    },
+    {
+      "label": "Read contacts",
+      "status": "PASS"
+    },
+    {
+      "label": "Read campaigns",
+      "status": "PASS"
+    },
+    {
+      "label": "Read payment-reminders",
+      "status": "PASS"
+    },
+    {
+      "label": "Read customer-success",
+      "status": "PASS"
+    },
+    {
+      "label": "Read settings",
+      "status": "PASS"
+    },
+    {
+      "label": "Read dashboard/stats",
+      "status": "PASS"
+    },
+    {
+      "label": "Read machines",
+      "status": "PASS"
+    },
+    {
+      "label": "Read machine-consumables",
+      "status": "PASS"
+    },
+    {
+      "label": "Read machine-replacements",
+      "status": "PASS"
+    },
+    {
+      "label": "Create lead and persist custom fields",
+      "status": "PASS"
+    },
+    {
+      "label": "Sales cannot read another user lead",
+      "status": "PASS"
+    },
+    {
+      "label": "Sales cannot edit another user lead",
+      "status": "PASS"
+    },
+    {
+      "label": "Sales cannot access admin settings",
+      "status": "PASS"
+    },
+    {
+      "label": "Create and complete follow-up",
+      "status": "PASS"
+    },
+    {
+      "label": "Other user follow-up read/write/delete prohibited",
+      "status": "PASS"
+    },
+    {
+      "label": "Deactivated user existing token is rejected",
+      "status": "PASS"
+    },
+    {
+      "label": "Sales can create own lead but cannot transfer it",
+      "status": "PASS"
+    },
+    {
+      "label": "Create linked contact",
+      "status": "PASS"
+    },
+    {
+      "label": "Create proposal draft",
+      "status": "PASS"
+    },
+    {
+      "label": "Proposal-stage auto draft is reused by manual creation",
+      "status": "PASS"
+    },
+    {
+      "label": "Public revision response stores reason and comment",
+      "status": "PASS"
+    },
+    {
+      "label": "Accept proposal converts lead to Won",
+      "status": "PASS"
+    },
+    {
+      "label": "Explicit convert endpoint works",
+      "status": "PASS"
+    },
+    {
+      "label": "Accepted proposal creates correct payment due",
+      "status": "PASS"
+    },
+    {
+      "label": "Receiving payment starts customer success",
+      "status": "PASS"
+    },
+    {
+      "label": "Second accepted proposal keeps separate unpaid balance",
+      "status": "PASS"
+    },
+    {
+      "label": "Refreshing payments keeps first paid and second pending",
+      "status": "PASS"
+    },
+    {
+      "label": "Renaming lead preserves proposal and contact links",
+      "status": "PASS"
+    },
+    {
+      "label": "Rename synchronizes labels on all linked records",
+      "status": "PASS"
+    },
+    {
+      "label": "Invalid amounts rejected on update and proposals",
+      "status": "PASS"
+    },
+    {
+      "label": "Invalid proposal/customer-success stages rejected",
+      "status": "PASS"
+    },
+    {
+      "label": "Zero-value proposal retains zero amount",
+      "status": "PASS"
+    },
+    {
+      "label": "Migration can be rerun without deleting records",
+      "status": "PASS"
+    },
+    {
+      "label": "Campaign create/update/delete",
+      "status": "PASS"
+    },
+    {
+      "label": "Invalid lead stage rejected",
+      "status": "PASS"
+    },
+    {
+      "label": "Negative deal amount rejected",
+      "status": "PASS"
+    },
+    {
+      "label": "Settings persist and workspace separation works",
+      "status": "PASS"
+    },
+    {
+      "label": "HRMS API removed",
+      "status": "PASS"
+    },
+    {
+      "label": "Database dump restores record values",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+import { API_BASE_URL } from './config';
+const BASE=`${API_BASE_URL}/hrms`;
+const request=async(method,path,body)=>{const token=localStorage.getItem('manod_token');const res=await fetch(`${BASE}${path}`,{method,headers:{'Content-Type':'application/json',...(token?{Authorization:`Bearer ${token}`}:{})},...(body!==undefined?{body:JSON.stringify(body)}:{})});const data=await res.json().catch(()=>({}));if(!res.ok)throw new Error(data.error||`HTTP ${res.status}`);return data;};
+export const fetchEmployees=()=>request('GET','/employees');
+export const createEmployee=body=>request('POST','/employees',body);
+export const fetchAttendance=(date=new Date().toISOString().slice(0,10))=>request('GET',`/attendance?date=${date}`);
+export const saveAttendance=body=>request('POST','/attendance',body);
+export const fetchLeaves=()=>request('GET','/leave');
+export const createLeave=body=>request('POST','/leave',body);
+export const updateLeaveStatus=(id,status)=>request('PATCH',`/leave/${id}/status`,{status});
+export const fetchPayroll=(month=new Date().toISOString().slice(0,7))=>request('GET',`/payroll?month=${month}`);
+export const updatePayrollStatus=(id,status)=>request('PATCH',`/payroll/${id}/status`,{status});

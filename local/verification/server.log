@@ -1,0 +1,13 @@
+Indra CRM: http://localhost:5001 | local PostgreSQL | Ctrl+C to close
+🔐 Login Request: { email: 'admin@audit.invalid' }
+👤 User found: 0c52db7d-1ab3-4ce1-bb73-2b9183e4ad6e
+✅ Password verified
+🎫 Token created for user: 0c52db7d-1ab3-4ce1-bb73-2b9183e4ad6e
+🔐 Login Request: { email: 'admin@audit.invalid' }
+👤 User found: 0c52db7d-1ab3-4ce1-bb73-2b9183e4ad6e
+❌ Wrong password
+🔐 Login Request: { email: 'inactive@audit.invalid' }
+🔐 Login Request: { email: 'sales@audit.invalid' }
+👤 User found: 4606afc8-7e35-4f85-8aec-75d661b08698
+✅ Password verified
+🎫 Token created for user: 4606afc8-7e35-4f85-8aec-75d661b08698

@@ -1,0 +1,8 @@
+2026-09-15 11:51:40.270 IST [17432] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-15 11:51:40.271 IST [17432] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-15 11:51:40.413 IST [17432] LOG:  database system is ready to accept connections
+2026-09-15 12:02:40.769 IST [17432] LOG:  could not open file "postmaster.pid": No such file or directory
+2026-09-15 12:02:40.769 IST [17432] LOG:  performing immediate shutdown because data directory lock file is invalid
+2026-09-15 12:02:40.769 IST [17432] LOG:  received immediate shutdown request
+2026-09-15 12:02:40.769 IST [17432] LOG:  could not open file "postmaster.pid": No such file or directory
+2026-09-15 12:02:40.818 IST [17432] LOG:  database system is shut down

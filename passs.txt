@@ -1,0 +1,23 @@
+Email: admin@manodtechnologies.com
+Password: Admin@2026
+
+https://staging.d1d1hkil0jxwwa.amplifyapp.com/login/
+
+
+
+twillio recovery 
+AE7PXNM9BG4RWWT9VXLWFRFH
+
+
+
+
+
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+AWS_REGION = ap-southeast-2
+EB_APPLICATION_NAME = manod-crm-backend
+EB_ENVIRONMENT_NAME = Manod-crm-backend-env
+EB_S3_BUCKET = your deployment S3 bucket name
+
+shalijahmanodtechnologies@gmail.com
+123456

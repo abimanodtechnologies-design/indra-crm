@@ -1,0 +1,8 @@
+node_modules/
+local/postgres/
+local/backups/
+.env
+.env.local
+local/config.json
+local/FIRST-LOGIN.txt
+dist/

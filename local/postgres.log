@@ -1,0 +1,1181 @@
+2026-09-15 12:02:34.073 IST [7644] FATAL:  pre-existing shared memory block is still in use
+2026-09-15 12:02:34.073 IST [7644] HINT:  Check if there are any old server processes still running, and terminate them.
+2026-09-15 12:02:34.074 IST [7644] LOG:  database system is shut down
+2026-09-15 12:04:34.374 IST [20884] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-15 12:04:34.375 IST [20884] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-15 12:04:35.392 IST [20884] LOG:  database system is ready to accept connections
+2026-09-16 11:31:38.440 IST [9300] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-16 11:31:38.441 IST [9300] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-16 11:31:39.399 IST [9300] LOG:  database system is ready to accept connections
+2026-09-17 11:40:43.830 IST [2804] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-17 11:40:43.831 IST [2804] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-17 11:40:44.794 IST [2804] LOG:  database system is ready to accept connections
+2026-09-17 11:59:56.618 IST [24820] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-17 11:59:56.619 IST [24820] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-17 11:59:57.120 IST [24820] LOG:  database system is ready to accept connections
+2026-09-17 12:24:00.718 IST [26152] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-17 12:24:00.719 IST [26152] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-17 12:24:15.785 IST [26152] LOG:  database system is ready to accept connections
+2026-09-18 11:18:18.439 IST [20464] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-18 11:18:18.439 IST [20464] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-18 11:18:18.859 IST [9136] LOG:  database system was interrupted; last known up at 2026-09-17 15:23:25 IST
+2026-09-18 11:18:20.976 IST [9136] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-18 11:18:20.998 IST [9136] LOG:  redo starts at 0/DF9B728
+2026-09-18 11:18:21.002 IST [9136] LOG:  invalid record length at 0/DFB86E8: expected at least 24, got 0
+2026-09-18 11:18:21.002 IST [9136] LOG:  redo done at 0/DFB86C0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-09-18 11:18:21.028 IST [21888] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-18 11:18:21.581 IST [21888] LOG:  checkpoint complete: wrote 23 buffers (0.1%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.006 s, sync=0.433 s, total=0.575 s; sync files=17, longest=0.040 s, average=0.026 s; distance=115 kB, estimate=115 kB; lsn=0/DFB86E8, redo lsn=0/DFB86E8
+2026-09-18 11:18:21.608 IST [20464] LOG:  database system is ready to accept connections
+2026-09-18 11:23:21.597 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:23:28.522 IST [21888] LOG:  checkpoint complete: wrote 59 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=6.400 s, sync=0.422 s, total=6.925 s; sync files=30, longest=0.034 s, average=0.015 s; distance=390 kB, estimate=390 kB; lsn=0/E01A080, redo lsn=0/E019FD8
+2026-09-18 11:28:21.535 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:28:23.850 IST [21888] LOG:  checkpoint complete: wrote 18 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.946 s, sync=0.294 s, total=2.315 s; sync files=14, longest=0.027 s, average=0.021 s; distance=99 kB, estimate=361 kB; lsn=0/E032F30, redo lsn=0/E032ED8
+2026-09-18 11:33:21.859 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:33:24.832 IST [21888] LOG:  checkpoint complete: wrote 24 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.603 s, sync=0.327 s, total=2.974 s; sync files=14, longest=0.033 s, average=0.024 s; distance=139 kB, estimate=338 kB; lsn=0/E055B80, redo lsn=0/E055B28
+2026-09-18 11:38:21.848 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:38:22.032 IST [21888] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.101 s, sync=0.028 s, total=0.184 s; sync files=2, longest=0.016 s, average=0.014 s; distance=7 kB, estimate=305 kB; lsn=0/E057B70, redo lsn=0/E057B18
+2026-09-18 11:43:21.045 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:43:29.996 IST [21888] LOG:  checkpoint complete: wrote 78 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.455 s, sync=0.427 s, total=8.953 s; sync files=32, longest=0.062 s, average=0.014 s; distance=619 kB, estimate=619 kB; lsn=0/E164DA0, redo lsn=0/E0F2A80
+2026-09-18 11:48:22.007 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:48:29.597 IST [21888] LOG:  checkpoint complete: wrote 66 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.149 s, sync=0.400 s, total=7.590 s; sync files=25, longest=0.069 s, average=0.016 s; distance=576 kB, estimate=615 kB; lsn=0/E1DAD98, redo lsn=0/E182AB8
+2026-09-18 11:53:22.610 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:53:33.878 IST [21888] LOG:  checkpoint complete: wrote 100 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.852 s, sync=0.362 s, total=11.269 s; sync files=32, longest=0.023 s, average=0.012 s; distance=780 kB, estimate=780 kB; lsn=0/E245DC8, redo lsn=0/E245D70
+2026-09-18 11:58:22.889 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 11:58:32.453 IST [21888] LOG:  checkpoint complete: wrote 83 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.004 s, sync=0.490 s, total=9.564 s; sync files=36, longest=0.054 s, average=0.014 s; distance=607 kB, estimate=763 kB; lsn=0/E2DDBB8, redo lsn=0/E2DDB28
+2026-09-18 11:59:23.328 IST [30620] ERROR:  could not determine data type of parameter $1 at character 36
+2026-09-18 11:59:23.328 IST [30620] STATEMENT:  SELECT email FROM crm_leads WHERE ($1 IS NOT NULL AND id::text=$1) OR LOWER(TRIM(name))=LOWER(TRIM($2)) ORDER BY CASE WHEN id::text=$1 THEN 0 ELSE 1 END LIMIT 1
+2026-09-18 11:59:32.159 IST [17796] ERROR:  could not determine data type of parameter $1 at character 36
+2026-09-18 11:59:32.159 IST [17796] STATEMENT:  SELECT email FROM crm_leads WHERE ($1 IS NOT NULL AND id::text=$1) OR LOWER(TRIM(name))=LOWER(TRIM($2)) ORDER BY CASE WHEN id::text=$1 THEN 0 ELSE 1 END LIMIT 1
+2026-09-18 12:03:22.469 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 12:03:33.097 IST [21888] LOG:  checkpoint complete: wrote 93 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.087 s, sync=0.473 s, total=10.629 s; sync files=33, longest=0.054 s, average=0.015 s; distance=715 kB, estimate=758 kB; lsn=0/E390960, redo lsn=0/E3908D0
+2026-09-18 12:08:22.114 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 12:08:25.036 IST [21888] LOG:  checkpoint complete: wrote 23 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.503 s, sync=0.360 s, total=2.923 s; sync files=16, longest=0.036 s, average=0.023 s; distance=120 kB, estimate=694 kB; lsn=0/E3AEB08, redo lsn=0/E3AEA78
+2026-09-18 12:18:22.052 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 12:18:29.491 IST [21888] LOG:  checkpoint complete: wrote 64 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.936 s, sync=0.430 s, total=7.439 s; sync files=33, longest=0.034 s, average=0.013 s; distance=399 kB, estimate=665 kB; lsn=0/E437760, redo lsn=0/E4129E0
+2026-09-18 12:23:22.504 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 12:23:34.126 IST [21888] LOG:  checkpoint complete: wrote 102 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.054 s, sync=0.497 s, total=11.623 s; sync files=34, longest=0.099 s, average=0.015 s; distance=946 kB, estimate=946 kB; lsn=0/E530E78, redo lsn=0/E4FF550
+2026-09-18 12:28:22.128 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 12:28:32.204 IST [21888] LOG:  checkpoint complete: wrote 87 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.437 s, sync=0.559 s, total=10.076 s; sync files=44, longest=0.043 s, average=0.013 s; distance=684 kB, estimate=920 kB; lsn=0/E5AA5F0, redo lsn=0/E5AA560
+2026-09-18 12:31:36.637 IST [2260] ERROR:  column "products" does not exist at character 43
+2026-09-18 12:31:36.637 IST [2260] STATEMENT:  SELECT id,name,lead_details,custom_fields,products,product_name,requirement_details FROM crm_leads ORDER BY created_at DESC LIMIT 3;
+2026-09-18 12:33:22.210 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 12:33:32.615 IST [21888] LOG:  checkpoint complete: wrote 90 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.767 s, sync=0.590 s, total=10.405 s; sync files=46, longest=0.088 s, average=0.013 s; distance=590 kB, estimate=887 kB; lsn=0/E669D20, redo lsn=0/E63E088
+2026-09-18 12:38:22.619 IST [21888] LOG:  checkpoint starting: time
+2026-09-18 12:38:31.566 IST [21888] LOG:  checkpoint complete: wrote 78 buffers (0.5%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.451 s, sync=0.418 s, total=8.948 s; sync files=33, longest=0.040 s, average=0.013 s; distance=593 kB, estimate=858 kB; lsn=0/E6D26C8, redo lsn=0/E6D2638
+2026-09-18 13:18:57.338 IST [13540] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-18 13:18:57.338 IST [13540] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-18 13:18:57.768 IST [3940] LOG:  database system was interrupted; last known up at 2026-09-18 12:38:31 IST
+2026-09-18 13:18:58.544 IST [3940] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-18 13:18:58.570 IST [3940] LOG:  redo starts at 0/E6D2638
+2026-09-18 13:18:58.570 IST [3940] LOG:  invalid record length at 0/E6D2778: expected at least 24, got 0
+2026-09-18 13:18:58.571 IST [3940] LOG:  redo done at 0/E6D2740 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-09-18 13:18:58.595 IST [21208] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-18 13:18:58.678 IST [21208] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.033 s, total=0.105 s; sync files=2, longest=0.022 s, average=0.017 s; distance=0 kB, estimate=0 kB; lsn=0/E6D2778, redo lsn=0/E6D2778
+2026-09-18 13:18:58.710 IST [13540] LOG:  database system is ready to accept connections
+2026-09-18 13:23:58.694 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 13:24:07.723 IST [21208] LOG:  checkpoint complete: wrote 79 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.501 s, sync=0.463 s, total=9.030 s; sync files=37, longest=0.076 s, average=0.013 s; distance=478 kB, estimate=478 kB; lsn=0/E74A258, redo lsn=0/E74A1C8
+2026-09-18 13:28:58.728 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 13:29:01.122 IST [21208] LOG:  checkpoint complete: wrote 19 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.053 s, sync=0.286 s, total=2.395 s; sync files=15, longest=0.068 s, average=0.020 s; distance=89 kB, estimate=439 kB; lsn=0/E7607D0, redo lsn=0/E760778
+2026-09-18 13:33:58.140 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 13:34:10.711 IST [21208] LOG:  checkpoint complete: wrote 111 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.955 s, sync=0.536 s, total=12.571 s; sync files=43, longest=0.047 s, average=0.013 s; distance=722 kB, estimate=722 kB; lsn=0/E8152E8, redo lsn=0/E815258
+2026-09-18 13:48:58.749 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 13:49:07.606 IST [21208] LOG:  checkpoint complete: wrote 78 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.404 s, sync=0.393 s, total=8.857 s; sync files=31, longest=0.049 s, average=0.013 s; distance=586 kB, estimate=709 kB; lsn=0/E8A7CA8, redo lsn=0/E8A7C50
+2026-09-18 13:53:58.618 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 13:54:09.726 IST [21208] LOG:  checkpoint complete: wrote 98 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.564 s, sync=0.478 s, total=11.109 s; sync files=38, longest=0.025 s, average=0.013 s; distance=664 kB, estimate=704 kB; lsn=0/E94E088, redo lsn=0/E94DFE0
+2026-09-18 13:58:58.730 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 13:59:06.279 IST [21208] LOG:  checkpoint complete: wrote 65 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.003 s, sync=0.499 s, total=7.549 s; sync files=36, longest=0.087 s, average=0.014 s; distance=432 kB, estimate=677 kB; lsn=0/E9C9C60, redo lsn=0/E9BA3A0
+2026-09-18 14:03:58.294 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:04:06.467 IST [21208] LOG:  checkpoint complete: wrote 71 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.653 s, sync=0.459 s, total=8.174 s; sync files=34, longest=0.044 s, average=0.014 s; distance=440 kB, estimate=653 kB; lsn=0/EA287E8, redo lsn=0/EA28758
+2026-09-18 14:18:58.504 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:19:01.874 IST [21208] LOG:  checkpoint complete: wrote 28 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.016 s, sync=0.285 s, total=3.371 s; sync files=19, longest=0.026 s, average=0.015 s; distance=151 kB, estimate=603 kB; lsn=0/EA4E6F0, redo lsn=0/EA4E698
+2026-09-18 14:23:58.886 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:24:09.583 IST [21208] LOG:  checkpoint complete: wrote 94 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.118 s, sync=0.486 s, total=10.697 s; sync files=42, longest=0.023 s, average=0.012 s; distance=555 kB, estimate=598 kB; lsn=0/EAD9330, redo lsn=0/EAD92A0
+2026-09-18 14:28:58.598 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:29:01.886 IST [21208] LOG:  checkpoint complete: wrote 27 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.913 s, sync=0.334 s, total=3.288 s; sync files=14, longest=0.083 s, average=0.024 s; distance=166 kB, estimate=555 kB; lsn=0/EB04A00, redo lsn=0/EB02CA8
+2026-09-18 14:33:58.894 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:34:07.636 IST [21208] LOG:  checkpoint complete: wrote 76 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.184 s, sync=0.503 s, total=8.742 s; sync files=35, longest=0.047 s, average=0.015 s; distance=487 kB, estimate=548 kB; lsn=0/EB7CC98, redo lsn=0/EB7CC40
+2026-09-18 14:38:58.641 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:39:01.267 IST [21208] LOG:  checkpoint complete: wrote 21 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.253 s, sync=0.312 s, total=2.626 s; sync files=14, longest=0.031 s, average=0.023 s; distance=121 kB, estimate=506 kB; lsn=0/EB9B358, redo lsn=0/EB9B2C8
+2026-09-18 14:43:58.272 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:44:04.786 IST [21208] LOG:  checkpoint complete: wrote 54 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.825 s, sync=0.628 s, total=6.514 s; sync files=32, longest=0.043 s, average=0.020 s; distance=351 kB, estimate=490 kB; lsn=0/EC18DD8, redo lsn=0/EBF30F0
+2026-09-18 14:48:58.796 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:49:02.937 IST [21208] LOG:  checkpoint complete: wrote 35 buffers (0.2%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.768 s, sync=0.308 s, total=4.141 s; sync files=18, longest=0.041 s, average=0.018 s; distance=257 kB, estimate=467 kB; lsn=0/EC338C8, redo lsn=0/EC33838
+2026-09-18 14:53:58.949 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:54:02.495 IST [21208] LOG:  checkpoint complete: wrote 30 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.239 s, sync=0.241 s, total=3.547 s; sync files=14, longest=0.033 s, average=0.018 s; distance=201 kB, estimate=440 kB; lsn=0/EC65CA8, redo lsn=0/EC65C50
+2026-09-18 14:56:32.342 IST [14308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-18 14:56:32.342 IST [21148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-18 14:56:32.342 IST [18788] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-18 14:56:32.342 IST [22488] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-18 14:56:32.342 IST [5232] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-18 14:56:32.342 IST [1968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-18 14:58:58.508 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 14:59:10.526 IST [21208] LOG:  checkpoint complete: wrote 107 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.526 s, sync=0.417 s, total=12.019 s; sync files=35, longest=0.025 s, average=0.012 s; distance=866 kB, estimate=866 kB; lsn=0/ED3E720, redo lsn=0/ED3E690
+2026-09-18 15:05:00.652 IST [17136] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-18 15:08:58.543 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 15:09:07.374 IST [21208] LOG:  checkpoint complete: wrote 77 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.318 s, sync=0.429 s, total=8.832 s; sync files=30, longest=0.043 s, average=0.015 s; distance=520 kB, estimate=831 kB; lsn=0/EDC09D0, redo lsn=0/EDC0978
+2026-09-18 15:13:58.393 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 15:14:00.919 IST [21208] LOG:  checkpoint complete: wrote 18 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.941 s, sync=0.505 s, total=2.527 s; sync files=14, longest=0.263 s, average=0.037 s; distance=111 kB, estimate=759 kB; lsn=0/EDDC600, redo lsn=0/EDDC5A8
+2026-09-18 15:18:58.937 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 15:19:08.845 IST [21208] LOG:  checkpoint complete: wrote 86 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.263 s, sync=0.567 s, total=9.909 s; sync files=42, longest=0.035 s, average=0.014 s; distance=481 kB, estimate=732 kB; lsn=0/EE54DB8, redo lsn=0/EE54D28
+2026-09-18 15:23:58.855 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 15:24:02.762 IST [21208] LOG:  checkpoint complete: wrote 32 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.469 s, sync=0.363 s, total=3.907 s; sync files=21, longest=0.026 s, average=0.018 s; distance=175 kB, estimate=676 kB; lsn=0/EE8F2B0, redo lsn=0/EE80A38
+2026-09-18 15:28:58.771 IST [21208] LOG:  checkpoint starting: time
+2026-09-18 15:29:02.165 IST [21208] LOG:  checkpoint complete: wrote 28 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.022 s, sync=0.310 s, total=3.395 s; sync files=17, longest=0.032 s, average=0.019 s; distance=181 kB, estimate=626 kB; lsn=0/EEAE1B8, redo lsn=0/EEAE160
+2026-09-18 16:30:17.554 IST [23396] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-18 16:30:17.554 IST [23396] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-18 16:30:17.983 IST [3176] LOG:  database system was interrupted; last known up at 2026-09-18 15:29:02 IST
+2026-09-18 16:30:18.644 IST [3176] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-18 16:30:18.667 IST [3176] LOG:  redo starts at 0/EEAE160
+2026-09-18 16:30:18.682 IST [3176] LOG:  invalid record length at 0/EF4CB60: expected at least 24, got 0
+2026-09-18 16:30:18.682 IST [3176] LOG:  redo done at 0/EF4CB28 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.01 s
+2026-09-18 16:30:18.710 IST [17780] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-18 16:30:20.074 IST [17780] LOG:  checkpoint complete: wrote 97 buffers (0.6%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=1.259 s, total=1.391 s; sync files=52, longest=0.116 s, average=0.025 s; distance=634 kB, estimate=634 kB; lsn=0/EF4CB60, redo lsn=0/EF4CB60
+2026-09-18 16:30:20.114 IST [23396] LOG:  database system is ready to accept connections
+2026-09-18 16:35:18.084 IST [17780] LOG:  checkpoint starting: time
+2026-09-18 16:35:28.889 IST [17780] LOG:  checkpoint complete: wrote 94 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.189 s, sync=0.543 s, total=10.806 s; sync files=46, longest=0.025 s, average=0.012 s; distance=664 kB, estimate=664 kB; lsn=0/EFF2F38, redo lsn=0/EFF2EA8
+2026-09-18 16:40:18.903 IST [17780] LOG:  checkpoint starting: time
+2026-09-18 16:40:22.533 IST [17780] LOG:  checkpoint complete: wrote 30 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=3.254 s, sync=0.287 s, total=3.631 s; sync files=21, longest=0.023 s, average=0.014 s; distance=159 kB, estimate=614 kB; lsn=0/F01BFD0, redo lsn=0/F01ABB0
+2026-09-18 16:50:18.549 IST [17780] LOG:  checkpoint starting: time
+2026-09-18 16:50:24.547 IST [17780] LOG:  checkpoint complete: wrote 51 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.538 s, sync=0.396 s, total=5.998 s; sync files=27, longest=0.045 s, average=0.015 s; distance=287 kB, estimate=581 kB; lsn=0/F062A28, redo lsn=0/F062998
+2026-09-18 16:55:18.551 IST [17780] LOG:  checkpoint starting: time
+2026-09-18 16:55:26.406 IST [17780] LOG:  checkpoint complete: wrote 68 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.369 s, sync=0.418 s, total=7.855 s; sync files=32, longest=0.035 s, average=0.014 s; distance=470 kB, estimate=570 kB; lsn=0/F0F8178, redo lsn=0/F0D84C8
+2026-09-18 17:00:18.411 IST [17780] LOG:  checkpoint starting: time
+2026-09-18 17:00:26.673 IST [17780] LOG:  checkpoint complete: wrote 71 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.706 s, sync=0.495 s, total=8.262 s; sync files=39, longest=0.034 s, average=0.013 s; distance=446 kB, estimate=558 kB; lsn=0/F147F10, redo lsn=0/F147E80
+2026-09-18 17:05:18.685 IST [17780] LOG:  checkpoint starting: time
+2026-09-18 17:05:24.682 IST [17780] LOG:  checkpoint complete: wrote 51 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.526 s, sync=0.389 s, total=5.998 s; sync files=28, longest=0.025 s, average=0.014 s; distance=294 kB, estimate=531 kB; lsn=0/F192B08, redo lsn=0/F191750
+2026-09-18 17:10:18.697 IST [17780] LOG:  checkpoint starting: time
+2026-09-18 17:10:29.106 IST [17780] LOG:  checkpoint complete: wrote 92 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.975 s, sync=0.382 s, total=10.409 s; sync files=30, longest=0.046 s, average=0.013 s; distance=681 kB, estimate=681 kB; lsn=0/F24B680, redo lsn=0/F23BDA8
+2026-09-19 10:49:00.912 IST [27420] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-19 10:49:00.913 IST [27420] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-19 10:49:00.983 IST [27592] LOG:  database system was interrupted; last known up at 2026-09-18 17:10:29 IST
+2026-09-19 10:49:01.391 IST [27592] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-19 10:49:01.416 IST [27592] LOG:  redo starts at 0/F23BDA8
+2026-09-19 10:49:01.431 IST [27592] LOG:  invalid record length at 0/F24B7C0: expected at least 24, got 0
+2026-09-19 10:49:01.431 IST [27592] LOG:  redo done at 0/F24B788 system usage: CPU: user: 0.00 s, system: 0.01 s, elapsed: 0.01 s
+2026-09-19 10:49:01.458 IST [27548] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-19 10:49:01.715 IST [27548] LOG:  checkpoint complete: wrote 10 buffers (0.1%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.178 s, total=0.282 s; sync files=9, longest=0.023 s, average=0.020 s; distance=62 kB, estimate=62 kB; lsn=0/F24B7C0, redo lsn=0/F24B7C0
+2026-09-19 10:49:01.813 IST [27420] LOG:  database system is ready to accept connections
+2026-09-19 10:54:01.729 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 10:54:11.689 IST [27548] LOG:  checkpoint complete: wrote 85 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.186 s, sync=0.689 s, total=9.961 s; sync files=56, longest=0.023 s, average=0.013 s; distance=490 kB, estimate=490 kB; lsn=0/F2C6D68, redo lsn=0/F2C6398
+2026-09-19 10:59:01.706 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 10:59:10.940 IST [27548] LOG:  checkpoint complete: wrote 81 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.730 s, sync=0.427 s, total=9.235 s; sync files=30, longest=0.055 s, average=0.015 s; distance=622 kB, estimate=622 kB; lsn=0/F361F00, redo lsn=0/F361E70
+2026-09-19 11:09:01.965 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:09:05.256 IST [27548] LOG:  checkpoint complete: wrote 25 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.690 s, sync=0.528 s, total=3.292 s; sync files=21, longest=0.072 s, average=0.026 s; distance=143 kB, estimate=574 kB; lsn=0/F385EB8, redo lsn=0/F385E60
+2026-09-19 11:14:01.273 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:14:09.634 IST [27548] LOG:  checkpoint complete: wrote 73 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.877 s, sync=0.419 s, total=8.361 s; sync files=32, longest=0.034 s, average=0.014 s; distance=485 kB, estimate=565 kB; lsn=0/F3FF4D0, redo lsn=0/F3FF440
+2026-09-19 11:19:01.638 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:19:14.768 IST [27548] LOG:  checkpoint complete: wrote 116 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.514 s, sync=0.557 s, total=13.131 s; sync files=43, longest=0.060 s, average=0.013 s; distance=764 kB, estimate=764 kB; lsn=0/F4DF918, redo lsn=0/F4BE460
+2026-09-19 11:24:01.780 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:24:08.889 IST [27548] LOG:  checkpoint complete: wrote 62 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.681 s, sync=0.338 s, total=7.110 s; sync files=19, longest=0.072 s, average=0.018 s; distance=527 kB, estimate=740 kB; lsn=0/F565138, redo lsn=0/F542338
+2026-09-19 11:29:01.901 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:29:09.441 IST [27548] LOG:  checkpoint complete: wrote 66 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.115 s, sync=0.361 s, total=7.540 s; sync files=19, longest=0.083 s, average=0.019 s; distance=530 kB, estimate=719 kB; lsn=0/F5DF500, redo lsn=0/F5C6DA0
+2026-09-19 11:34:01.446 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:34:05.880 IST [27548] LOG:  checkpoint complete: wrote 38 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.095 s, sync=0.271 s, total=4.435 s; sync files=16, longest=0.027 s, average=0.017 s; distance=281 kB, estimate=675 kB; lsn=0/F627078, redo lsn=0/F60D3E8
+2026-09-19 11:39:01.883 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:39:11.597 IST [27548] LOG:  checkpoint complete: wrote 86 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.267 s, sync=0.378 s, total=9.714 s; sync files=23, longest=0.034 s, average=0.017 s; distance=675 kB, estimate=675 kB; lsn=0/F6CC210, redo lsn=0/F6B6050
+2026-09-19 11:44:01.603 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:44:09.190 IST [27548] LOG:  checkpoint complete: wrote 66 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.109 s, sync=0.414 s, total=7.587 s; sync files=23, longest=0.077 s, average=0.018 s; distance=526 kB, estimate=660 kB; lsn=0/F762700, redo lsn=0/F7398A0
+2026-09-19 11:49:01.198 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:49:09.127 IST [27548] LOG:  checkpoint complete: wrote 70 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.545 s, sync=0.297 s, total=7.929 s; sync files=19, longest=0.026 s, average=0.016 s; distance=699 kB, estimate=699 kB; lsn=0/F803930, redo lsn=0/F7E86D8
+2026-09-19 11:54:01.139 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:54:08.618 IST [27548] LOG:  checkpoint complete: wrote 66 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.111 s, sync=0.295 s, total=7.479 s; sync files=19, longest=0.027 s, average=0.016 s; distance=511 kB, estimate=680 kB; lsn=0/F880D90, redo lsn=0/F868368
+2026-09-19 11:59:01.626 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 11:59:19.755 IST [27548] LOG:  checkpoint complete: wrote 162 buffers (1.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=17.440 s, sync=0.618 s, total=18.129 s; sync files=51, longest=0.034 s, average=0.013 s; distance=1269 kB, estimate=1269 kB; lsn=0/F9D0328, redo lsn=0/F9A5AD8
+2026-09-19 12:04:01.771 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 12:04:08.736 IST [27548] LOG:  checkpoint complete: wrote 61 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.573 s, sync=0.302 s, total=6.965 s; sync files=20, longest=0.026 s, average=0.016 s; distance=564 kB, estimate=1199 kB; lsn=0/FA99D40, redo lsn=0/FA32CD0
+2026-09-19 12:09:01.754 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 12:09:14.884 IST [27548] LOG:  checkpoint complete: wrote 117 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.622 s, sync=0.440 s, total=13.131 s; sync files=34, longest=0.026 s, average=0.013 s; distance=985 kB, estimate=1177 kB; lsn=0/FB474E8, redo lsn=0/FB29140
+2026-09-19 12:14:01.888 IST [27548] LOG:  checkpoint starting: time
+2026-09-19 12:14:14.403 IST [27548] LOG:  checkpoint complete: wrote 111 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.965 s, sync=0.472 s, total=12.515 s; sync files=37, longest=0.026 s, average=0.013 s; distance=906 kB, estimate=1150 kB; lsn=0/FC3DE10, redo lsn=0/FC0BBF0
+2026-09-19 12:16:01.847 IST [27420] LOG:  could not reserve shared memory region (addr=000001E5842E0000) for child 00000000000016E8: error code 487
+2026-09-19 13:23:07.236 IST [19484] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-19 13:23:07.236 IST [19484] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-19 13:23:07.334 IST [13940] LOG:  database system was interrupted; last known up at 2026-09-19 12:14:14 IST
+2026-09-19 13:23:07.935 IST [13940] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-19 13:23:07.960 IST [13940] LOG:  redo starts at 0/FC0BBF0
+2026-09-19 13:23:08.019 IST [13940] LOG:  invalid record length at 0/FC780F8: expected at least 24, got 0
+2026-09-19 13:23:08.019 IST [13940] LOG:  redo done at 0/FC780D0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.05 s
+2026-09-19 13:23:08.047 IST [11272] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-19 13:23:08.788 IST [11272] LOG:  checkpoint complete: wrote 61 buffers (0.4%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.527 s, total=0.767 s; sync files=25, longest=0.036 s, average=0.022 s; distance=433 kB, estimate=433 kB; lsn=0/FC780F8, redo lsn=0/FC780F8
+2026-09-19 13:23:08.813 IST [19484] LOG:  database system is ready to accept connections
+2026-09-19 13:28:08.800 IST [11272] LOG:  checkpoint starting: time
+2026-09-19 13:28:19.593 IST [11272] LOG:  checkpoint complete: wrote 94 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.184 s, sync=0.508 s, total=10.794 s; sync files=40, longest=0.045 s, average=0.013 s; distance=727 kB, estimate=727 kB; lsn=0/FD5C138, redo lsn=0/FD2DF70
+2026-09-19 13:33:08.603 IST [11272] LOG:  checkpoint starting: time
+2026-09-19 13:33:13.469 IST [11272] LOG:  checkpoint complete: wrote 42 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.554 s, sync=0.249 s, total=4.867 s; sync files=16, longest=0.039 s, average=0.016 s; distance=362 kB, estimate=691 kB; lsn=0/FD88A50, redo lsn=0/FD889C0
+2026-09-19 13:43:08.488 IST [11272] LOG:  checkpoint starting: time
+2026-09-19 13:43:08.552 IST [11272] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.014 s, total=0.065 s; sync files=1, longest=0.014 s, average=0.014 s; distance=0 kB, estimate=622 kB; lsn=0/FD88BE8, redo lsn=0/FD88B90
+2026-09-19 13:48:08.553 IST [11272] LOG:  checkpoint starting: time
+2026-09-19 13:48:17.607 IST [11272] LOG:  checkpoint complete: wrote 80 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.672 s, sync=0.324 s, total=9.054 s; sync files=24, longest=0.034 s, average=0.014 s; distance=637 kB, estimate=637 kB; lsn=0/FE496B0, redo lsn=0/FE27FF8
+2026-09-19 13:53:08.617 IST [11272] LOG:  checkpoint starting: time
+2026-09-19 13:53:16.884 IST [11272] LOG:  checkpoint complete: wrote 73 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.907 s, sync=0.316 s, total=8.267 s; sync files=20, longest=0.026 s, average=0.016 s; distance=613 kB, estimate=634 kB; lsn=0/FEDC9A0, redo lsn=0/FEC1510
+2026-09-19 13:58:08.893 IST [11272] LOG:  checkpoint starting: time
+2026-09-19 13:58:19.209 IST [11272] LOG:  checkpoint complete: wrote 91 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.863 s, sync=0.405 s, total=10.317 s; sync files=25, longest=0.085 s, average=0.017 s; distance=683 kB, estimate=683 kB; lsn=0/FF8C260, redo lsn=0/FF6C208
+2026-09-21 15:20:28.909 IST [5288] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-21 15:20:28.910 IST [5288] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-21 15:20:29.062 IST [19232] LOG:  database system was interrupted; last known up at 2026-09-19 13:58:19 IST
+2026-09-21 15:20:29.601 IST [19232] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-21 15:20:29.615 IST [19232] LOG:  redo starts at 0/FF6C208
+2026-09-21 15:20:29.678 IST [19232] LOG:  invalid record length at 0/1000B0A0: expected at least 24, got 0
+2026-09-21 15:20:29.678 IST [19232] LOG:  redo done at 0/1000B078 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.06 s
+2026-09-21 15:20:29.703 IST [18696] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-21 15:20:30.315 IST [18696] LOG:  checkpoint complete: wrote 73 buffers (0.4%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.002 s, sync=0.515 s, total=0.636 s; sync files=25, longest=0.037 s, average=0.021 s; distance=635 kB, estimate=635 kB; lsn=0/1000B0A0, redo lsn=0/1000B0A0
+2026-09-21 15:20:30.342 IST [5288] LOG:  database system is ready to accept connections
+2026-09-21 15:25:29.324 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 15:25:39.908 IST [18696] LOG:  checkpoint complete: wrote 93 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.093 s, sync=0.440 s, total=10.585 s; sync files=32, longest=0.076 s, average=0.014 s; distance=746 kB, estimate=746 kB; lsn=0/100DF0C8, redo lsn=0/100C5920
+2026-09-21 15:30:29.924 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 15:30:37.987 IST [18696] LOG:  checkpoint complete: wrote 71 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.700 s, sync=0.299 s, total=8.063 s; sync files=20, longest=0.026 s, average=0.015 s; distance=589 kB, estimate=730 kB; lsn=0/10177C70, redo lsn=0/10158E18
+2026-09-21 15:35:20.164 IST [19208] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 15:35:20.165 IST [22796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 15:35:20.165 IST [10048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 15:35:20.165 IST [2396] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 15:35:20.165 IST [9624] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 15:35:20.166 IST [22692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 15:35:29.998 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 15:35:40.344 IST [18696] LOG:  checkpoint complete: wrote 91 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.864 s, sync=0.426 s, total=10.346 s; sync files=35, longest=0.025 s, average=0.013 s; distance=711 kB, estimate=728 kB; lsn=0/1020AE38, redo lsn=0/1020ADE0
+2026-09-21 15:40:29.354 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 15:40:40.358 IST [18696] LOG:  checkpoint complete: wrote 96 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.408 s, sync=0.531 s, total=11.004 s; sync files=43, longest=0.025 s, average=0.013 s; distance=704 kB, estimate=726 kB; lsn=0/102F7D40, redo lsn=0/102BB1B8
+2026-09-21 15:45:29.359 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 15:45:40.448 IST [18696] LOG:  checkpoint complete: wrote 97 buffers (0.6%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.517 s, sync=0.525 s, total=11.090 s; sync files=39, longest=0.025 s, average=0.014 s; distance=752 kB, estimate=752 kB; lsn=0/1039D3E0, redo lsn=0/103773E0
+2026-09-21 15:48:34.880 IST [5288] LOG:  could not reserve shared memory region (addr=00000201A3540000) for child 00000000000016D0: error code 487
+2026-09-21 15:50:29.458 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 15:50:40.528 IST [18696] LOG:  checkpoint complete: wrote 98 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.638 s, sync=0.367 s, total=11.071 s; sync files=26, longest=0.034 s, average=0.015 s; distance=878 kB, estimate=878 kB; lsn=0/1046DDC8, redo lsn=0/10452F60
+2026-09-21 15:55:29.537 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 15:55:39.547 IST [18696] LOG:  checkpoint complete: wrote 88 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.531 s, sync=0.428 s, total=10.011 s; sync files=23, longest=0.058 s, average=0.019 s; distance=748 kB, estimate=865 kB; lsn=0/1053C018, redo lsn=0/1050DF60
+2026-09-21 16:00:29.563 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:00:37.547 IST [18696] LOG:  checkpoint complete: wrote 70 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.593 s, sync=0.317 s, total=7.985 s; sync files=20, longest=0.033 s, average=0.016 s; distance=644 kB, estimate=843 kB; lsn=0/105D4E48, redo lsn=0/105AEF78
+2026-09-21 16:05:29.554 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:05:37.977 IST [18696] LOG:  checkpoint complete: wrote 74 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.029 s, sync=0.323 s, total=8.423 s; sync files=21, longest=0.027 s, average=0.016 s; distance=664 kB, estimate=825 kB; lsn=0/1067CAA0, redo lsn=0/10655190
+2026-09-21 16:10:29.991 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:10:40.183 IST [18696] LOG:  checkpoint complete: wrote 90 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.766 s, sync=0.355 s, total=10.193 s; sync files=23, longest=0.034 s, average=0.016 s; distance=782 kB, estimate=821 kB; lsn=0/10746E58, redo lsn=0/10718C00
+2026-09-21 16:15:29.186 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:15:39.036 IST [18696] LOG:  checkpoint complete: wrote 86 buffers (0.5%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.331 s, sync=0.459 s, total=9.851 s; sync files=35, longest=0.070 s, average=0.014 s; distance=693 kB, estimate=808 kB; lsn=0/10800EC8, redo lsn=0/107C6218
+2026-09-21 16:20:29.044 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:20:41.328 IST [18696] LOG:  checkpoint complete: wrote 109 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.820 s, sync=0.413 s, total=12.285 s; sync files=26, longest=0.044 s, average=0.016 s; distance=957 kB, estimate=957 kB; lsn=0/108DB7A8, redo lsn=0/108B58C0
+2026-09-21 16:25:29.330 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:25:31.223 IST [18696] LOG:  checkpoint complete: wrote 16 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.735 s, sync=0.108 s, total=1.893 s; sync files=6, longest=0.023 s, average=0.018 s; distance=171 kB, estimate=879 kB; lsn=0/108E0708, redo lsn=0/108E06B0
+2026-09-21 16:30:29.225 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:30:32.139 IST [18696] LOG:  checkpoint complete: wrote 23 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.503 s, sync=0.347 s, total=2.915 s; sync files=17, longest=0.037 s, average=0.021 s; distance=128 kB, estimate=803 kB; lsn=0/10900810, redo lsn=0/109007B8
+2026-09-21 16:35:29.149 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:35:29.208 IST [18696] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.010 s, total=0.059 s; sync files=1, longest=0.010 s, average=0.010 s; distance=1 kB, estimate=723 kB; lsn=0/10900DA0, redo lsn=0/10900D48
+2026-09-21 16:40:29.213 IST [18696] LOG:  checkpoint starting: time
+2026-09-21 16:40:29.282 IST [18696] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.015 s, total=0.070 s; sync files=1, longest=0.015 s, average=0.015 s; distance=1 kB, estimate=651 kB; lsn=0/109013C0, redo lsn=0/10901368
+2026-09-21 17:01:17.427 IST [25956] ERROR:  INSERT has more expressions than target columns at character 262
+2026-09-21 17:01:17.427 IST [25956] STATEMENT:  INSERT INTO crm_contacts (first_name, last_name, email, mobile, department, designation, linked_lead,
+	                                  is_active, phone, alt_phone, life_stage, sales_commission)
+	       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17) RETURNING *
+2026-09-21 17:01:18.435 IST [18696] LOG:  checkpoint starting: immediate force wait time
+2026-09-21 17:01:28.144 IST [18696] LOG:  checkpoint complete: wrote 1226 buffers (7.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.021 s, sync=9.490 s, total=9.709 s; sync files=563, longest=0.131 s, average=0.017 s; distance=13028 kB, estimate=13028 kB; lsn=0/115BA640, redo lsn=0/115BA5E8
+2026-09-21 17:01:28.264 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:01:28.442 IST [18696] LOG:  checkpoint complete: wrote 4 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.064 s, total=0.179 s; sync files=3, longest=0.025 s, average=0.022 s; distance=28 kB, estimate=11728 kB; lsn=0/115C1738, redo lsn=0/115C16E0
+2026-09-21 17:04:13.515 IST [6080] ERROR:  column "lead_id" does not exist at character 16
+2026-09-21 17:04:13.515 IST [6080] STATEMENT:  SELECT subject,lead_id FROM crm_proposals WHERE subject IN ('Legacy link','Ambiguous legacy','Orphan legacy')
+2026-09-21 17:05:05.058 IST [6080] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:05:05.060 IST [13048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:05:13.655 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:05:24.734 IST [18696] LOG:  checkpoint complete: wrote 2410 buffers (14.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.041 s, sync=10.685 s, total=11.079 s; sync files=1113, longest=0.127 s, average=0.010 s; distance=19623 kB, estimate=19623 kB; lsn=0/128EB4F8, redo lsn=0/128EB448
+2026-09-21 17:05:24.846 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:05:24.996 IST [18696] LOG:  checkpoint complete: wrote 5 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.064 s, total=0.150 s; sync files=3, longest=0.028 s, average=0.022 s; distance=40 kB, estimate=17665 kB; lsn=0/128F54A8, redo lsn=0/128F5450
+2026-09-21 17:06:09.979 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:06:18.634 IST [18696] LOG:  checkpoint complete: wrote 1245 buffers (7.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.016 s, sync=8.487 s, total=8.656 s; sync files=566, longest=0.124 s, average=0.015 s; distance=13116 kB, estimate=17210 kB; lsn=0/136AD638, redo lsn=0/135C4810
+2026-09-21 17:06:18.728 IST [25708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:06:18.728 IST [15192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:06:18.729 IST [21148] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:06:18.736 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:06:18.947 IST [18696] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.090 s, total=0.211 s; sync files=4, longest=0.039 s, average=0.023 s; distance=942 kB, estimate=15583 kB; lsn=0/136B0150, redo lsn=0/136B00F8
+2026-09-21 17:08:53.787 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:09:00.625 IST [18696] LOG:  checkpoint complete: wrote 1297 buffers (7.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.020 s, sync=6.329 s, total=6.838 s; sync files=583, longest=0.135 s, average=0.011 s; distance=13625 kB, estimate=15387 kB; lsn=0/143FE840, redo lsn=0/143FE7E8
+2026-09-21 17:09:00.730 IST [25420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:09:00.732 IST [4556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:09:00.734 IST [24604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:09:00.744 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:09:00.949 IST [18696] LOG:  checkpoint complete: wrote 5 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.060 s, total=0.205 s; sync files=3, longest=0.029 s, average=0.020 s; distance=40 kB, estimate=13852 kB; lsn=0/14408AE8, redo lsn=0/14408A90
+2026-09-21 17:09:23.864 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:09:30.743 IST [18696] LOG:  checkpoint complete: wrote 1241 buffers (7.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.019 s, sync=6.669 s, total=6.879 s; sync files=566, longest=0.122 s, average=0.012 s; distance=13082 kB, estimate=13775 kB; lsn=0/150CF458, redo lsn=0/150CF400
+2026-09-21 17:09:30.862 IST [25164] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:09:30.862 IST [11260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:09:30.862 IST [11784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:09:30.870 IST [18696] LOG:  checkpoint starting: immediate force wait
+2026-09-21 17:09:31.052 IST [18696] LOG:  checkpoint complete: wrote 5 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.065 s, total=0.183 s; sync files=3, longest=0.026 s, average=0.022 s; distance=40 kB, estimate=12402 kB; lsn=0/150D9848, redo lsn=0/150D97F0
+2026-09-21 17:11:24.238 IST [12680] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:11:24.238 IST [20656] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-21 17:11:32.728 IST [5288] LOG:  io worker (PID 20440) was terminated by exception 0x40010004
+2026-09-21 17:11:32.728 IST [5288] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2026-09-21 17:11:32.728 IST [5288] LOG:  terminating any other active server processes
+2026-09-21 17:11:32.737 IST [5288] LOG:  all server processes terminated; reinitializing
+2026-09-21 17:11:32.793 IST [24200] LOG:  database system was interrupted; last known up at 2026-09-21 17:09:31 IST
+2026-09-21 17:11:33.137 IST [24200] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-21 17:11:33.151 IST [24200] LOG:  redo starts at 0/150D97F0
+2026-09-21 17:11:33.151 IST [24200] WARNING:  could not open directory "base/124883": No such file or directory
+2026-09-21 17:11:33.151 IST [24200] CONTEXT:  WAL redo at 0/150D98C0 for Database/DROP: dir 1663/124883
+2026-09-21 17:11:33.151 IST [24200] WARNING:  some useless files may be left behind in old database directory "base/124883"
+2026-09-21 17:11:33.151 IST [24200] CONTEXT:  WAL redo at 0/150D98C0 for Database/DROP: dir 1663/124883
+2026-09-21 17:11:33.152 IST [24200] LOG:  invalid record length at 0/1510DF28: expected at least 24, got 0
+2026-09-21 17:11:33.152 IST [24200] LOG:  redo done at 0/1510DEF0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-09-21 17:11:33.167 IST [23660] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-21 17:11:33.468 IST [23660] LOG:  checkpoint complete: wrote 34 buffers (0.2%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.247 s, total=0.314 s; sync files=14, longest=0.026 s, average=0.018 s; distance=209 kB, estimate=209 kB; lsn=0/1510DF28, redo lsn=0/1510DF28
+2026-09-21 17:11:33.496 IST [5288] LOG:  database system is ready to accept connections
+2026-09-22 10:56:35.192 IST [5520] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-22 10:56:35.192 IST [5520] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-22 10:56:35.417 IST [16956] LOG:  database system was interrupted; last known up at 2026-09-21 17:11:33 IST
+2026-09-22 10:56:36.037 IST [16956] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-22 10:56:36.054 IST [16956] LOG:  invalid record length at 0/1510DFA0: expected at least 24, got 0
+2026-09-22 10:56:36.054 IST [16956] LOG:  redo is not required
+2026-09-22 10:56:36.075 IST [18120] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-22 10:56:36.169 IST [18120] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.021 s, total=0.109 s; sync files=2, longest=0.014 s, average=0.011 s; distance=0 kB, estimate=0 kB; lsn=0/1510DFA0, redo lsn=0/1510DFA0
+2026-09-22 10:56:36.204 IST [5520] LOG:  database system is ready to accept connections
+2026-09-22 10:57:32.407 IST [18120] LOG:  checkpoint starting: immediate force wait
+2026-09-22 10:57:43.645 IST [18120] LOG:  checkpoint complete: wrote 1285 buffers (7.8%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.026 s, sync=11.043 s, total=11.238 s; sync files=590, longest=0.218 s, average=0.019 s; distance=13343 kB, estimate=13343 kB; lsn=0/15E15C70, redo lsn=0/15E15C18
+2026-09-22 10:57:43.751 IST [18120] LOG:  checkpoint starting: immediate force wait
+2026-09-22 10:57:43.943 IST [18120] LOG:  checkpoint complete: wrote 5 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.053 s, total=0.192 s; sync files=3, longest=0.025 s, average=0.018 s; distance=41 kB, estimate=12012 kB; lsn=0/15E201D8, redo lsn=0/15E20180
+2026-09-22 11:02:43.950 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:02:45.723 IST [18120] LOG:  checkpoint complete: wrote 14 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.516 s, sync=0.176 s, total=1.774 s; sync files=10, longest=0.025 s, average=0.018 s; distance=79 kB, estimate=10819 kB; lsn=0/15E33F40, redo lsn=0/15E33EE8
+2026-09-22 11:04:56.221 IST [18120] LOG:  checkpoint starting: immediate force wait
+2026-09-22 11:05:03.766 IST [18120] LOG:  checkpoint complete: wrote 1276 buffers (7.8%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.031 s, sync=7.244 s, total=7.546 s; sync files=581, longest=0.125 s, average=0.013 s; distance=13338 kB, estimate=13338 kB; lsn=0/16B59E28, redo lsn=0/16B3AAA8
+2026-09-22 11:05:03.857 IST [22048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 11:05:03.858 IST [22380] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 11:05:03.858 IST [22388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 11:05:03.869 IST [18120] LOG:  checkpoint starting: immediate force wait
+2026-09-22 11:05:04.404 IST [18120] LOG:  checkpoint complete: wrote 26 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.414 s, total=0.535 s; sync files=19, longest=0.037 s, average=0.022 s; distance=166 kB, estimate=12021 kB; lsn=0/16B64428, redo lsn=0/16B643D0
+2026-09-22 11:10:03.415 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:10:13.286 IST [18120] LOG:  checkpoint complete: wrote 87 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.368 s, sync=0.445 s, total=9.871 s; sync files=31, longest=0.027 s, average=0.015 s; distance=799 kB, estimate=10899 kB; lsn=0/16C8FE38, redo lsn=0/16C2C140
+2026-09-22 11:15:03.296 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:15:18.002 IST [18120] LOG:  checkpoint complete: wrote 131 buffers (0.8%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.128 s, sync=0.505 s, total=14.706 s; sync files=37, longest=0.034 s, average=0.014 s; distance=1218 kB, estimate=9931 kB; lsn=0/16D78720, redo lsn=0/16D5CA30
+2026-09-22 11:20:03.008 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:20:09.923 IST [18120] LOG:  checkpoint complete: wrote 61 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.583 s, sync=0.255 s, total=6.915 s; sync files=15, longest=0.027 s, average=0.017 s; distance=471 kB, estimate=8985 kB; lsn=0/16DD2808, redo lsn=0/16DD27B0
+2026-09-22 11:25:03.927 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:25:10.207 IST [18120] LOG:  checkpoint complete: wrote 55 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.947 s, sync=0.284 s, total=6.280 s; sync files=15, longest=0.073 s, average=0.019 s; distance=425 kB, estimate=8129 kB; lsn=0/16E3CC20, redo lsn=0/16E3CBC8
+2026-09-22 11:27:06.051 IST [18120] LOG:  checkpoint starting: immediate force wait
+2026-09-22 11:27:06.677 IST [18120] LOG:  checkpoint complete: wrote 52 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=0.003 s, sync=0.523 s, total=0.627 s; sync files=24, longest=0.048 s, average=0.022 s; distance=6670 kB, estimate=7983 kB; lsn=0/174C0570, redo lsn=0/174C0518
+2026-09-22 11:32:06.685 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:32:14.036 IST [18120] LOG:  checkpoint complete: wrote 65 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.999 s, sync=0.274 s, total=7.351 s; sync files=19, longest=0.023 s, average=0.015 s; distance=464 kB, estimate=7231 kB; lsn=0/17550338, redo lsn=0/175348E0
+2026-09-22 11:37:06.044 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:37:12.170 IST [18120] LOG:  checkpoint complete: wrote 54 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.827 s, sync=0.237 s, total=6.126 s; sync files=16, longest=0.027 s, average=0.015 s; distance=419 kB, estimate=6550 kB; lsn=0/1759F568, redo lsn=0/1759D6E8
+2026-09-22 11:42:06.183 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:42:13.895 IST [18120] LOG:  checkpoint complete: wrote 67 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.232 s, sync=0.390 s, total=7.712 s; sync files=17, longest=0.080 s, average=0.023 s; distance=486 kB, estimate=5944 kB; lsn=0/17630030, redo lsn=0/176172D0
+2026-09-22 11:47:06.908 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:47:12.501 IST [18120] LOG:  checkpoint complete: wrote 49 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.276 s, sync=0.257 s, total=5.594 s; sync files=15, longest=0.027 s, average=0.018 s; distance=382 kB, estimate=5387 kB; lsn=0/176785C0, redo lsn=0/17676D00
+2026-09-22 11:52:06.506 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:52:13.498 IST [18120] LOG:  checkpoint complete: wrote 60 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.477 s, sync=0.438 s, total=6.993 s; sync files=16, longest=0.055 s, average=0.028 s; distance=444 kB, estimate=4893 kB; lsn=0/176E7978, redo lsn=0/176E5F90
+2026-09-22 11:57:06.508 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 11:57:14.327 IST [18120] LOG:  checkpoint complete: wrote 69 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.443 s, sync=0.301 s, total=7.821 s; sync files=17, longest=0.026 s, average=0.018 s; distance=519 kB, estimate=4456 kB; lsn=0/17784CD0, redo lsn=0/17767CC8
+2026-09-22 12:02:06.333 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 12:02:13.069 IST [18120] LOG:  checkpoint complete: wrote 59 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.360 s, sync=0.301 s, total=6.737 s; sync files=16, longest=0.058 s, average=0.019 s; distance=457 kB, estimate=4056 kB; lsn=0/177DBE80, redo lsn=0/177DA1B8
+2026-09-22 12:04:35.811 IST [20724] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:04:35.811 IST [22276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:04:35.811 IST [13200] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:04:35.811 IST [22604] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:04:35.811 IST [8164] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:04:35.811 IST [4584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:04:58.575 IST [22964] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:04:58.575 IST [22964] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:04:58.575 IST [22964] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:01.423 IST [22384] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:01.423 IST [22384] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:01.423 IST [22384] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:03.766 IST [20728] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:03.766 IST [20728] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:03.766 IST [20728] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:05.140 IST [20020] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:05.140 IST [20020] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:05.140 IST [20020] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:06.539 IST [15836] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:06.539 IST [15836] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:06.539 IST [15836] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:13.565 IST [22836] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:13.565 IST [22836] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:13.565 IST [22836] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:18.119 IST [2412] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:18.119 IST [2412] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:18.119 IST [2412] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:20.294 IST [18496] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:20.294 IST [18496] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:20.294 IST [18496] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:35.328 IST [2876] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:05:35.328 IST [2876] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:05:35.328 IST [2876] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:05:40.731 IST [18468] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:05:40.731 IST [13596] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:05:40.731 IST [4540] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:05:40.731 IST [11036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:05:40.731 IST [18192] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:05:40.731 IST [2968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 12:06:27.682 IST [9052] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:27.682 IST [9052] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:27.682 IST [9052] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:33.446 IST [21884] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:33.446 IST [21884] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:33.446 IST [21884] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:33.932 IST [6288] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:33.932 IST [6288] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:33.932 IST [6288] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:34.131 IST [22096] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:34.131 IST [22096] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:34.131 IST [22096] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:34.317 IST [23212] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:34.317 IST [23212] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:34.317 IST [23212] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:44.149 IST [14472] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:44.149 IST [14472] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:44.149 IST [14472] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:44.184 IST [23536] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:44.184 IST [23536] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:44.184 IST [23536] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:46.281 IST [8440] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:46.281 IST [8440] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:46.281 IST [8440] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:58.788 IST [536] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:58.788 IST [536] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:58.788 IST [536] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:59.227 IST [4596] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:59.227 IST [4596] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:59.227 IST [4596] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:59.425 IST [9664] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:59.425 IST [9664] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:59.425 IST [9664] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:59.602 IST [21100] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:59.602 IST [21100] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:59.602 IST [21100] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:59.775 IST [20096] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:59.775 IST [20096] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:59.775 IST [20096] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:06:59.943 IST [22288] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:06:59.943 IST [22288] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:06:59.943 IST [22288] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:07:06.072 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 12:07:14.979 IST [9060] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:07:14.979 IST [9060] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:07:14.979 IST [9060] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:07:19.529 IST [18120] LOG:  checkpoint complete: wrote 120 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.929 s, sync=0.464 s, total=13.458 s; sync files=36, longest=0.045 s, average=0.013 s; distance=1033 kB, estimate=3753 kB; lsn=0/179081D0, redo lsn=0/178DC6B8
+2026-09-22 12:07:29.974 IST [8356] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:07:29.974 IST [8356] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:07:29.974 IST [8356] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:07:44.985 IST [21568] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:07:44.985 IST [21568] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:07:44.985 IST [21568] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:07:59.988 IST [21644] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:07:59.988 IST [21644] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:07:59.988 IST [21644] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:08:15.271 IST [7220] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:08:15.271 IST [7220] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:08:15.271 IST [7220] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:08:30.271 IST [12664] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:08:30.271 IST [12664] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:08:30.271 IST [12664] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:08:44.987 IST [19240] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:08:44.987 IST [19240] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:08:44.987 IST [19240] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:09:01.776 IST [8980] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:09:01.776 IST [8980] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:09:01.776 IST [8980] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:09:14.988 IST [20660] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:09:14.988 IST [20660] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:09:14.988 IST [20660] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:09:29.978 IST [15304] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:09:29.978 IST [15304] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:09:29.978 IST [15304] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:09:44.988 IST [19140] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:09:44.988 IST [19140] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:09:44.988 IST [19140] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:09:59.971 IST [17760] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:09:59.971 IST [17760] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:09:59.971 IST [17760] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:10:14.982 IST [18616] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:10:14.982 IST [18616] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:10:14.982 IST [18616] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:10:29.985 IST [17476] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:10:29.985 IST [17476] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:10:29.985 IST [17476] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:10:44.975 IST [17696] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:10:44.975 IST [17696] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:10:44.975 IST [17696] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:11:01.788 IST [22864] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:11:01.788 IST [22864] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:11:01.788 IST [22864] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:11:14.983 IST [19984] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:11:14.983 IST [19984] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:11:14.983 IST [19984] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:11:29.984 IST [22532] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:11:29.984 IST [22532] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:11:29.984 IST [22532] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:11:46.809 IST [3916] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:11:46.809 IST [3916] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:11:46.809 IST [3916] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:12:03.135 IST [3736] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:12:03.135 IST [3736] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:12:03.135 IST [3736] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:12:06.542 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 12:12:15.183 IST [18120] LOG:  checkpoint complete: wrote 77 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.293 s, sync=0.285 s, total=8.642 s; sync files=20, longest=0.076 s, average=0.015 s; distance=462 kB, estimate=3424 kB; lsn=0/17951F50, redo lsn=0/17950200
+2026-09-22 12:12:21.760 IST [9884] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:12:21.760 IST [9884] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:12:21.760 IST [9884] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:12:35.564 IST [21708] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:12:35.564 IST [21708] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:12:35.564 IST [21708] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:12:50.559 IST [23240] ERROR:  invalid input syntax for type uuid: "assignees"
+2026-09-22 12:12:50.559 IST [23240] CONTEXT:  unnamed portal parameter $1 = '...'
+2026-09-22 12:12:50.559 IST [23240] STATEMENT:  SELECT * FROM crm_leads WHERE id=$1
+2026-09-22 12:17:06.196 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 12:17:14.237 IST [18120] LOG:  checkpoint complete: wrote 70 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.551 s, sync=0.437 s, total=8.041 s; sync files=32, longest=0.049 s, average=0.014 s; distance=479 kB, estimate=3130 kB; lsn=0/179F49E8, redo lsn=0/179C7E10
+2026-09-22 12:22:06.250 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 12:22:14.777 IST [18120] LOG:  checkpoint complete: wrote 74 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.976 s, sync=0.469 s, total=8.528 s; sync files=33, longest=0.060 s, average=0.015 s; distance=460 kB, estimate=2863 kB; lsn=0/17A3B1D8, redo lsn=0/17A3B148
+2026-09-22 12:37:06.814 IST [18120] LOG:  checkpoint starting: time
+2026-09-22 12:37:06.902 IST [18120] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.014 s, total=0.088 s; sync files=1, longest=0.014 s, average=0.014 s; distance=0 kB, estimate=2577 kB; lsn=0/17A3B370, redo lsn=0/17A3B318
+2026-09-22 13:44:55.845 IST [8984] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-22 13:44:55.846 IST [8984] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-22 13:44:56.090 IST [18364] LOG:  database system was interrupted; last known up at 2026-09-22 12:37:06 IST
+2026-09-22 13:44:56.950 IST [18364] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-22 13:44:56.976 IST [18364] LOG:  redo starts at 0/17A3B318
+2026-09-22 13:44:56.988 IST [18364] LOG:  invalid record length at 0/17A3B4B0: expected at least 24, got 0
+2026-09-22 13:44:56.988 IST [18364] LOG:  redo done at 0/17A3B478 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.01 s
+2026-09-22 13:44:57.013 IST [11864] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-22 13:44:57.118 IST [11864] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.002 s, sync=0.031 s, total=0.128 s; sync files=2, longest=0.024 s, average=0.016 s; distance=0 kB, estimate=0 kB; lsn=0/17A3B4B0, redo lsn=0/17A3B4B0
+2026-09-22 13:44:57.144 IST [8984] LOG:  database system is ready to accept connections
+2026-09-22 13:49:56.124 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 13:50:02.911 IST [11864] LOG:  checkpoint complete: wrote 58 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.299 s, sync=0.406 s, total=6.788 s; sync files=30, longest=0.056 s, average=0.014 s; distance=376 kB, estimate=376 kB; lsn=0/17A99720, redo lsn=0/17A99690
+2026-09-22 13:59:56.915 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:00:02.468 IST [11864] LOG:  checkpoint complete: wrote 48 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.207 s, sync=0.271 s, total=5.554 s; sync files=17, longest=0.023 s, average=0.016 s; distance=339 kB, estimate=372 kB; lsn=0/17AEE370, redo lsn=0/17AEE318
+2026-09-22 14:04:56.480 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:05:01.685 IST [11864] LOG:  checkpoint complete: wrote 45 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.886 s, sync=0.249 s, total=5.205 s; sync files=14, longest=0.026 s, average=0.018 s; distance=343 kB, estimate=369 kB; lsn=0/17B5AC20, redo lsn=0/17B44050
+2026-09-22 14:09:56.689 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:10:03.713 IST [11864] LOG:  checkpoint complete: wrote 61 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.619 s, sync=0.329 s, total=7.025 s; sync files=17, longest=0.084 s, average=0.020 s; distance=465 kB, estimate=465 kB; lsn=0/17BCBFD0, redo lsn=0/17BB84A8
+2026-09-22 14:14:56.719 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:15:04.374 IST [11864] LOG:  checkpoint complete: wrote 66 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.156 s, sync=0.422 s, total=7.655 s; sync files=23, longest=0.138 s, average=0.019 s; distance=479 kB, estimate=479 kB; lsn=0/17C55498, redo lsn=0/17C30188
+2026-09-22 14:19:56.383 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:20:03.035 IST [11864] LOG:  checkpoint complete: wrote 58 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.283 s, sync=0.300 s, total=6.652 s; sync files=17, longest=0.026 s, average=0.018 s; distance=440 kB, estimate=475 kB; lsn=0/17CB7070, redo lsn=0/17C9E300
+2026-09-22 14:24:56.037 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:25:01.223 IST [11864] LOG:  checkpoint complete: wrote 45 buffers (0.3%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.873 s, sync=0.251 s, total=5.187 s; sync files=14, longest=0.035 s, average=0.018 s; distance=351 kB, estimate=462 kB; lsn=0/17D1AF30, redo lsn=0/17CF6188
+2026-09-22 14:29:56.226 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:30:02.981 IST [11864] LOG:  checkpoint complete: wrote 59 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.396 s, sync=0.298 s, total=6.756 s; sync files=17, longest=0.023 s, average=0.018 s; distance=456 kB, estimate=462 kB; lsn=0/17D80FE0, redo lsn=0/17D68538
+2026-09-22 14:34:56.992 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:35:14.739 IST [11864] LOG:  checkpoint complete: wrote 156 buffers (1.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=16.945 s, sync=0.740 s, total=17.748 s; sync files=64, longest=0.067 s, average=0.012 s; distance=1220 kB, estimate=1220 kB; lsn=0/17EB4400, redo lsn=0/17E997F0
+2026-09-22 14:35:58.158 IST [20352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 14:35:58.159 IST [6968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 14:35:58.159 IST [15120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 14:35:58.159 IST [4892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 14:35:58.159 IST [21756] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 14:35:58.159 IST [21924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 14:39:56.751 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:40:12.714 IST [11864] LOG:  checkpoint complete: wrote 142 buffers (0.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=15.383 s, sync=0.510 s, total=15.963 s; sync files=44, longest=0.023 s, average=0.012 s; distance=1073 kB, estimate=1205 kB; lsn=0/17FBE4B8, redo lsn=0/17FA5D98
+2026-09-22 14:44:56.724 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:45:08.821 IST [11864] LOG:  checkpoint complete: wrote 107 buffers (0.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=11.606 s, sync=0.420 s, total=12.098 s; sync files=32, longest=0.034 s, average=0.014 s; distance=876 kB, estimate=1172 kB; lsn=0/1809AEC0, redo lsn=0/18080F20
+2026-09-22 14:49:56.824 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:50:06.995 IST [11864] LOG:  checkpoint complete: wrote 89 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.667 s, sync=0.432 s, total=10.172 s; sync files=31, longest=0.046 s, average=0.014 s; distance=606 kB, estimate=1116 kB; lsn=0/18131D60, redo lsn=0/18118738
+2026-09-22 14:54:57.002 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 14:55:04.385 IST [11864] LOG:  checkpoint complete: wrote 64 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.942 s, sync=0.371 s, total=7.384 s; sync files=21, longest=0.093 s, average=0.018 s; distance=462 kB, estimate=1050 kB; lsn=0/181A4FE8, redo lsn=0/1818C230
+2026-09-22 14:59:57.401 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:00:04.296 IST [11864] LOG:  checkpoint complete: wrote 59 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.404 s, sync=0.396 s, total=6.895 s; sync files=22, longest=0.044 s, average=0.018 s; distance=442 kB, estimate=990 kB; lsn=0/181FADE0, redo lsn=0/181FAD50
+2026-09-22 15:04:57.308 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:05:12.531 IST [11864] LOG:  checkpoint complete: wrote 134 buffers (0.8%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.528 s, sync=0.635 s, total=15.223 s; sync files=52, longest=0.024 s, average=0.013 s; distance=1000 kB, estimate=1000 kB; lsn=0/18309A20, redo lsn=0/182F5100
+2026-09-22 15:06:17.998 IST [7576] ERROR:  could not determine data type of parameter $1 at character 192
+2026-09-22 15:06:17.998 IST [7576] STATEMENT:  UPDATE crm_leads SET assigned=$1, activity_history=coalesce(activity_history,'[]'::jsonb)||jsonb_build_array(jsonb_build_object('action','Assigned person changed','from','Er Sarath Raj','to',$1,'details','Orphan assignment repaired because the previous user is not registered or active.','by','System','at',now())), updated_at=now() WHERE id=$2 RETURNING name,assigned
+2026-09-22 15:06:18.004 IST [7576] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 15:09:57.540 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:10:09.191 IST [11864] LOG:  checkpoint complete: wrote 102 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.061 s, sync=0.515 s, total=11.651 s; sync files=36, longest=0.090 s, average=0.015 s; distance=730 kB, estimate=973 kB; lsn=0/183CE960, redo lsn=0/183ABC60
+2026-09-22 15:14:57.205 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:15:08.109 IST [11864] LOG:  checkpoint complete: wrote 96 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.409 s, sync=0.431 s, total=10.904 s; sync files=35, longest=0.023 s, average=0.013 s; distance=603 kB, estimate=936 kB; lsn=0/1845B5E8, redo lsn=0/18442B68
+2026-09-22 15:19:57.123 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:20:04.361 IST [11864] LOG:  checkpoint complete: wrote 63 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.839 s, sync=0.330 s, total=7.239 s; sync files=18, longest=0.043 s, average=0.019 s; distance=456 kB, estimate=888 kB; lsn=0/184B4F98, redo lsn=0/184B4F40
+2026-09-22 15:24:57.377 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:25:09.296 IST [11864] LOG:  checkpoint complete: wrote 105 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.395 s, sync=0.451 s, total=11.920 s; sync files=33, longest=0.067 s, average=0.014 s; distance=777 kB, estimate=877 kB; lsn=0/1859CCC8, redo lsn=0/185775C0
+2026-09-22 15:29:57.298 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:30:11.838 IST [11864] LOG:  checkpoint complete: wrote 129 buffers (0.8%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=13.992 s, sync=0.475 s, total=14.541 s; sync files=36, longest=0.066 s, average=0.014 s; distance=1013 kB, estimate=1013 kB; lsn=0/18691EF8, redo lsn=0/18674B70
+2026-09-22 15:34:57.849 IST [11864] LOG:  checkpoint starting: time
+2026-09-22 15:35:05.508 IST [11864] LOG:  checkpoint complete: wrote 67 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.271 s, sync=0.319 s, total=7.659 s; sync files=21, longest=0.027 s, average=0.016 s; distance=517 kB, estimate=963 kB; lsn=0/186F62D8, redo lsn=0/186F6248
+2026-09-22 18:09:30.500 IST [9196] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-22 18:09:30.500 IST [9196] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-22 18:09:30.740 IST [11752] LOG:  database system was interrupted; last known up at 2026-09-22 15:35:05 IST
+2026-09-22 18:09:31.630 IST [11752] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-22 18:09:31.662 IST [11752] LOG:  redo starts at 0/186F6248
+2026-09-22 18:09:31.685 IST [11752] LOG:  invalid record length at 0/187251C8: expected at least 24, got 0
+2026-09-22 18:09:31.685 IST [11752] LOG:  redo done at 0/18725190 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.02 s
+2026-09-22 18:09:31.713 IST [2484] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-22 18:09:32.250 IST [2484] LOG:  checkpoint complete: wrote 30 buffers (0.2%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.443 s, total=0.563 s; sync files=19, longest=0.048 s, average=0.024 s; distance=187 kB, estimate=187 kB; lsn=0/187251C8, redo lsn=0/187251C8
+2026-09-22 18:09:32.285 IST [9196] LOG:  database system is ready to accept connections
+2026-09-22 18:14:31.259 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:14:40.071 IST [2484] LOG:  checkpoint complete: wrote 77 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.307 s, sync=0.443 s, total=8.813 s; sync files=33, longest=0.023 s, average=0.014 s; distance=538 kB, estimate=538 kB; lsn=0/187C5E30, redo lsn=0/187ABB20
+2026-09-22 18:19:31.079 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:19:36.820 IST [2484] LOG:  checkpoint complete: wrote 50 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.390 s, sync=0.287 s, total=5.741 s; sync files=15, longest=0.034 s, average=0.020 s; distance=394 kB, estimate=523 kB; lsn=0/1880E4A0, redo lsn=0/1880E448
+2026-09-22 18:24:31.832 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:24:40.926 IST [2484] LOG:  checkpoint complete: wrote 81 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.723 s, sync=0.297 s, total=9.095 s; sync files=19, longest=0.044 s, average=0.016 s; distance=615 kB, estimate=615 kB; lsn=0/188A8478, redo lsn=0/188A83E8
+2026-09-22 18:29:31.933 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:29:34.241 IST [2484] LOG:  checkpoint complete: wrote 18 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.942 s, sync=0.263 s, total=2.308 s; sync files=12, longest=0.042 s, average=0.022 s; distance=95 kB, estimate=563 kB; lsn=0/188C0310, redo lsn=0/188C02B8
+2026-09-22 18:34:31.250 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:34:40.354 IST [2484] LOG:  checkpoint complete: wrote 80 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.620 s, sync=0.401 s, total=9.104 s; sync files=31, longest=0.023 s, average=0.013 s; distance=559 kB, estimate=563 kB; lsn=0/1896EE98, redo lsn=0/1894C168
+2026-09-22 18:39:31.364 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:39:38.893 IST [2484] LOG:  checkpoint complete: wrote 67 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.232 s, sync=0.235 s, total=7.529 s; sync files=16, longest=0.023 s, average=0.015 s; distance=507 kB, estimate=557 kB; lsn=0/189CB0D8, redo lsn=0/189CB080
+2026-09-22 18:43:08.035 IST [15916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 18:43:08.035 IST [17692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 18:43:08.036 IST [21216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 18:43:08.037 IST [12504] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 18:44:31.905 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:44:43.648 IST [2484] LOG:  checkpoint complete: wrote 104 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.200 s, sync=0.467 s, total=11.743 s; sync files=32, longest=0.069 s, average=0.015 s; distance=786 kB, estimate=786 kB; lsn=0/18A8FB38, redo lsn=0/18A8FAA8
+2026-09-22 18:49:31.659 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:49:40.069 IST [2484] LOG:  checkpoint complete: wrote 73 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.871 s, sync=0.470 s, total=8.410 s; sync files=31, longest=0.034 s, average=0.016 s; distance=488 kB, estimate=756 kB; lsn=0/18B3C320, redo lsn=0/18B09E20
+2026-09-22 18:54:31.079 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:54:38.354 IST [2484] LOG:  checkpoint complete: wrote 64 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.898 s, sync=0.302 s, total=7.275 s; sync files=16, longest=0.026 s, average=0.019 s; distance=490 kB, estimate=730 kB; lsn=0/18B9C690, redo lsn=0/18B849C8
+2026-09-22 18:59:31.366 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 18:59:40.369 IST [2484] LOG:  checkpoint complete: wrote 79 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.505 s, sync=0.421 s, total=9.004 s; sync files=25, longest=0.101 s, average=0.017 s; distance=626 kB, estimate=719 kB; lsn=0/18C410D8, redo lsn=0/18C21418
+2026-09-22 19:04:31.380 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:04:42.947 IST [2484] LOG:  checkpoint complete: wrote 103 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.107 s, sync=0.397 s, total=11.568 s; sync files=23, longest=0.057 s, average=0.018 s; distance=774 kB, estimate=774 kB; lsn=0/18CFE9F8, redo lsn=0/18CE2DD0
+2026-09-22 19:05:59.940 IST [4760] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:05:59.941 IST [18356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:05:59.942 IST [17152] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:05:59.942 IST [7072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:05:59.942 IST [13712] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:09:31.951 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:09:43.371 IST [2484] LOG:  checkpoint complete: wrote 101 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.886 s, sync=0.473 s, total=11.421 s; sync files=38, longest=0.023 s, average=0.013 s; distance=823 kB, estimate=823 kB; lsn=0/18DC70B0, redo lsn=0/18DB0C50
+2026-09-22 19:13:58.316 IST [22664] ERROR:  operator is not unique: unknown * unknown at character 290
+2026-09-22 19:13:58.316 IST [22664] HINT:  Could not choose a best candidate operator. You might need to add explicit type casts.
+2026-09-22 19:13:58.316 IST [22664] STATEMENT:  UPDATE crm_proposals SET lead_name=$1, subject=$2, sent_by=$3, value=$4, status=$5, due_date=$6, cc=$7, bcc=$8, body=$9,
+	       quotation_items=$10, customer_info=$11, payment_terms=$12, po_attachment=$13, gst_percent=$14, advance_percent=$15,
+	       final_percent=$16, advance_amount=($4 * $15 / 100), final_amount=($4 * $16 / 100),
+	       lead_id=(SELECT id::text FROM crm_leads WHERE LOWER(TRIM(name))=LOWER(TRIM($1)) ORDER BY id LIMIT 1), updated_at=NOW()
+	       WHERE id=$17 RETURNING *
+2026-09-22 19:14:03.764 IST [23032] ERROR:  operator is not unique: unknown * unknown at character 290
+2026-09-22 19:14:03.764 IST [23032] HINT:  Could not choose a best candidate operator. You might need to add explicit type casts.
+2026-09-22 19:14:03.764 IST [23032] STATEMENT:  UPDATE crm_proposals SET lead_name=$1, subject=$2, sent_by=$3, value=$4, status=$5, due_date=$6, cc=$7, bcc=$8, body=$9,
+	       quotation_items=$10, customer_info=$11, payment_terms=$12, po_attachment=$13, gst_percent=$14, advance_percent=$15,
+	       final_percent=$16, advance_amount=($4 * $15 / 100), final_amount=($4 * $16 / 100),
+	       lead_id=(SELECT id::text FROM crm_leads WHERE LOWER(TRIM(name))=LOWER(TRIM($1)) ORDER BY id LIMIT 1), updated_at=NOW()
+	       WHERE id=$17 RETURNING *
+2026-09-22 19:14:31.383 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:14:40.443 IST [2484] LOG:  checkpoint complete: wrote 80 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.625 s, sync=0.370 s, total=9.060 s; sync files=30, longest=0.027 s, average=0.013 s; distance=636 kB, estimate=804 kB; lsn=0/18E68DA8, redo lsn=0/18E4FE40
+2026-09-22 19:15:25.172 IST [5924] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:15:25.172 IST [7552] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:15:25.173 IST [16776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:15:25.173 IST [24244] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:15:25.174 IST [7120] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:15:25.174 IST [23116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:19:31.452 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:19:46.382 IST [2484] LOG:  checkpoint complete: wrote 132 buffers (0.8%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.253 s, sync=0.612 s, total=14.931 s; sync files=53, longest=0.023 s, average=0.012 s; distance=950 kB, estimate=950 kB; lsn=0/18F5ECF0, redo lsn=0/18F3D8B0
+2026-09-22 19:23:51.188 IST [19744] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:23:51.190 IST [17532] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:23:51.190 IST [18680] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:23:51.190 IST [11452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:23:51.191 IST [22256] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:23:51.191 IST [19980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:24:31.393 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:24:44.518 IST [2484] LOG:  checkpoint complete: wrote 116 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=12.606 s, sync=0.445 s, total=13.126 s; sync files=34, longest=0.069 s, average=0.014 s; distance=987 kB, estimate=987 kB; lsn=0/1908CDC0, redo lsn=0/19034618
+2026-09-22 19:29:31.523 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:29:39.220 IST [12824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:29:39.220 IST [24160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:29:39.220 IST [23004] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:29:39.220 IST [22416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:29:39.221 IST [20520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:29:39.221 IST [14844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:29:41.299 IST [2484] LOG:  checkpoint complete: wrote 87 buffers (0.5%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.376 s, sync=0.336 s, total=9.776 s; sync files=24, longest=0.027 s, average=0.014 s; distance=853 kB, estimate=973 kB; lsn=0/191308A0, redo lsn=0/19109A40
+2026-09-22 19:34:31.304 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:34:44.109 IST [2484] LOG:  checkpoint complete: wrote 114 buffers (0.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.300 s, sync=0.442 s, total=12.806 s; sync files=36, longest=0.024 s, average=0.013 s; distance=1020 kB, estimate=1020 kB; lsn=0/19239738, redo lsn=0/19208DC0
+2026-09-22 19:39:31.120 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:39:41.559 IST [2484] LOG:  checkpoint complete: wrote 92 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.911 s, sync=0.453 s, total=10.439 s; sync files=30, longest=0.075 s, average=0.016 s; distance=860 kB, estimate=1004 kB; lsn=0/19308698, redo lsn=0/192DFDE0
+2026-09-22 19:40:44.390 IST [16264] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:40:44.390 IST [15520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:40:44.392 IST [9088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:40:44.392 IST [9968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:40:44.392 IST [22664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:40:44.392 IST [22852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:44:31.562 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:44:45.620 IST [2484] LOG:  checkpoint complete: wrote 125 buffers (0.8%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=13.473 s, sync=0.516 s, total=14.059 s; sync files=40, longest=0.024 s, average=0.013 s; distance=1081 kB, estimate=1081 kB; lsn=0/19426658, redo lsn=0/193EE280
+2026-09-22 19:45:02.586 IST [24376] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:45:02.587 IST [24184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:45:02.587 IST [22184] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:45:02.587 IST [10084] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:45:02.587 IST [1904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:45:02.588 IST [22740] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:47:37.051 IST [24428] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:47:37.052 IST [19520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:47:37.054 IST [20784] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:47:37.054 IST [11692] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:47:37.054 IST [22960] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:47:37.054 IST [10132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 19:49:31.635 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 19:49:44.860 IST [2484] LOG:  checkpoint complete: wrote 117 buffers (0.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.607 s, sync=0.544 s, total=13.225 s; sync files=43, longest=0.069 s, average=0.013 s; distance=901 kB, estimate=1063 kB; lsn=0/194CF838, redo lsn=0/194CF7A8
+2026-09-22 20:04:31.897 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 20:04:43.237 IST [2484] LOG:  checkpoint complete: wrote 100 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.765 s, sync=0.515 s, total=11.340 s; sync files=38, longest=0.034 s, average=0.014 s; distance=736 kB, estimate=1030 kB; lsn=0/195A9078, redo lsn=0/195879C8
+2026-09-22 20:09:31.246 IST [2484] LOG:  checkpoint starting: time
+2026-09-22 20:09:39.915 IST [2484] LOG:  checkpoint complete: wrote 76 buffers (0.5%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.192 s, sync=0.404 s, total=8.670 s; sync files=19, longest=0.068 s, average=0.022 s; distance=721 kB, estimate=999 kB; lsn=0/19664578, redo lsn=0/1963BFB8
+2026-09-22 20:13:55.559 IST [24992] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 20:13:55.559 IST [25664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 20:13:55.559 IST [26444] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 20:13:55.559 IST [20268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 20:13:55.560 IST [23580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-22 20:13:55.560 IST [25912] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:38:01.930 IST [4668] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-23 09:38:01.930 IST [4668] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-23 09:38:02.167 IST [8532] LOG:  database system was interrupted; last known up at 2026-09-22 20:09:39 IST
+2026-09-23 09:38:02.809 IST [8532] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-23 09:38:02.832 IST [8532] LOG:  redo starts at 0/1963BFB8
+2026-09-23 09:38:02.875 IST [8532] LOG:  invalid record length at 0/196E2A48: expected at least 24, got 0
+2026-09-23 09:38:02.875 IST [8532] LOG:  redo done at 0/196E2A20 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.04 s
+2026-09-23 09:38:02.895 IST [2472] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-23 09:38:03.522 IST [2472] LOG:  checkpoint complete: wrote 77 buffers (0.5%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.513 s, total=0.645 s; sync files=24, longest=0.037 s, average=0.022 s; distance=666 kB, estimate=666 kB; lsn=0/196E2A48, redo lsn=0/196E2A48
+2026-09-23 09:38:03.552 IST [4668] LOG:  database system is ready to accept connections
+2026-09-23 09:41:32.654 IST [6964] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:41:32.654 IST [6964] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:42:17.638 IST [18508] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:42:17.638 IST [18508] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:43:02.525 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 09:43:12.356 IST [2472] LOG:  checkpoint complete: wrote 86 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.320 s, sync=0.447 s, total=9.831 s; sync files=35, longest=0.036 s, average=0.013 s; distance=606 kB, estimate=660 kB; lsn=0/19793950, redo lsn=0/1977A480
+2026-09-23 09:43:17.637 IST [19868] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:43:17.637 IST [19868] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:44:17.650 IST [7148] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:44:17.650 IST [7148] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:45:17.681 IST [19768] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:45:17.681 IST [19768] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:46:17.687 IST [20412] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:46:17.687 IST [20412] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:47:17.685 IST [4564] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:47:17.685 IST [4564] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:47:49.707 IST [13908] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:47:49.707 IST [13908] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:48:02.358 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 09:48:13.996 IST [2472] LOG:  checkpoint complete: wrote 102 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.059 s, sync=0.511 s, total=11.639 s; sync files=41, longest=0.080 s, average=0.013 s; distance=832 kB, estimate=832 kB; lsn=0/19881190, redo lsn=0/1984A698
+2026-09-23 09:48:34.711 IST [13272] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:48:34.711 IST [13272] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:49:34.720 IST [19972] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:49:34.720 IST [19972] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:50:05.481 IST [19012] ERROR:  could not determine data type of parameter $8
+2026-09-23 09:50:05.481 IST [19012] STATEMENT:  UPDATE crm_customer_success SET
+	        current_stage=$1, status=$2, notes=$3, assigned=$4, due_date=$5,
+	        order_details=$6, stage_history=$7, completed_at=NULL, updated_at=NOW()
+	       WHERE id=$9 RETURNING *
+2026-09-23 09:50:13.285 IST [8288] ERROR:  could not determine data type of parameter $8
+2026-09-23 09:50:13.285 IST [8288] STATEMENT:  UPDATE crm_customer_success SET
+	        current_stage=$1, status=$2, notes=$3, assigned=$4, due_date=$5,
+	        order_details=$6, stage_history=$7, completed_at=NULL, updated_at=NOW()
+	       WHERE id=$9 RETURNING *
+2026-09-23 09:50:22.250 IST [13516] ERROR:  could not determine data type of parameter $8
+2026-09-23 09:50:22.250 IST [13516] STATEMENT:  UPDATE crm_customer_success SET
+	        current_stage=$1, status=$2, notes=$3, assigned=$4, due_date=$5,
+	        order_details=$6, stage_history=$7, completed_at=NULL, updated_at=NOW()
+	       WHERE id=$9 RETURNING *
+2026-09-23 09:50:34.752 IST [18124] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:50:34.752 IST [18124] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:51:34.728 IST [16284] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:51:34.728 IST [16284] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:52:19.594 IST [19892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:52:19.595 IST [8088] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:52:19.595 IST [17644] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:52:19.595 IST [5048] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:52:19.596 IST [18808] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:52:19.596 IST [18912] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:52:37.419 IST [19188] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:52:37.419 IST [19188] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:53:03.003 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 09:53:19.585 IST [2472] LOG:  checkpoint complete: wrote 146 buffers (0.9%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=15.839 s, sync=0.673 s, total=16.582 s; sync files=56, longest=0.023 s, average=0.013 s; distance=1173 kB, estimate=1173 kB; lsn=0/199B0570, redo lsn=0/1996FAE0
+2026-09-23 09:53:22.450 IST [14436] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:53:22.450 IST [14436] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:54:22.445 IST [6212] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:54:22.445 IST [6212] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:54:32.514 IST [13880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:54:32.516 IST [8040] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:54:32.516 IST [11732] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:54:32.516 IST [13972] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:54:32.516 IST [13872] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:54:32.516 IST [19956] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 09:54:50.173 IST [14956] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:54:50.173 IST [14956] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:55:35.162 IST [14824] ERROR:  column "buyer_email" does not exist at character 42
+2026-09-23 09:55:35.162 IST [14824] STATEMENT:  
+	    SELECT id, payment_ref, buyer_name, buyer_email, payment_type, payment_mode, currency,
+	           invoice_amount, received_amount, due_date
+	    FROM export_payments
+	    WHERE LOWER(COALESCE(status, 'pending')) NOT IN ('received', 'cancelled')
+	      AND due_date IS NOT NULL AND due_date <= $1::date
+	      AND COALESCE(invoice_amount, 0) > COALESCE(received_amount, 0)
+	  
+2026-09-23 09:58:03.592 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 09:58:20.006 IST [2472] LOG:  checkpoint complete: wrote 146 buffers (0.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=15.844 s, sync=0.503 s, total=16.415 s; sync files=41, longest=0.025 s, average=0.013 s; distance=1215 kB, estimate=1215 kB; lsn=0/19AD2FC0, redo lsn=0/19A9F970
+2026-09-23 10:03:03.010 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 10:03:13.699 IST [2472] LOG:  checkpoint complete: wrote 94 buffers (0.6%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.208 s, sync=0.411 s, total=10.690 s; sync files=34, longest=0.023 s, average=0.013 s; distance=733 kB, estimate=1167 kB; lsn=0/19B8AE30, redo lsn=0/19B56F70
+2026-09-23 10:06:56.099 IST [5196] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 10:06:56.099 IST [6108] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 10:06:56.099 IST [18748] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 10:06:56.099 IST [15232] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 10:06:56.099 IST [6288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 10:06:56.099 IST [20000] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 10:08:03.712 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 10:08:23.614 IST [2472] LOG:  checkpoint complete: wrote 177 buffers (1.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=19.200 s, sync=0.629 s, total=19.902 s; sync files=49, longest=0.044 s, average=0.013 s; distance=1455 kB, estimate=1455 kB; lsn=0/19CEEF90, redo lsn=0/19CC2C20
+2026-09-23 10:13:03.621 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 10:13:18.388 IST [2472] LOG:  checkpoint complete: wrote 132 buffers (0.8%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.324 s, sync=0.363 s, total=14.768 s; sync files=28, longest=0.025 s, average=0.013 s; distance=820 kB, estimate=1391 kB; lsn=0/19DAC498, redo lsn=0/19D8FCA0
+2026-09-23 10:18:03.390 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 10:18:13.445 IST [2472] LOG:  checkpoint complete: wrote 89 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.647 s, sync=0.331 s, total=10.056 s; sync files=25, longest=0.078 s, average=0.014 s; distance=687 kB, estimate=1321 kB; lsn=0/19E49300, redo lsn=0/19E3B958
+2026-09-23 10:23:03.448 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 10:23:15.809 IST [2472] LOG:  checkpoint complete: wrote 109 buffers (0.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.824 s, sync=0.460 s, total=12.361 s; sync files=33, longest=0.038 s, average=0.014 s; distance=808 kB, estimate=1269 kB; lsn=0/19F07990, redo lsn=0/19F05AF0
+2026-09-23 10:52:08.935 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 10:52:22.696 IST [2472] LOG:  checkpoint complete: wrote 122 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=13.157 s, sync=0.514 s, total=13.762 s; sync files=37, longest=0.026 s, average=0.014 s; distance=1043 kB, estimate=1247 kB; lsn=0/1A024F78, redo lsn=0/1A00A920
+2026-09-23 10:57:08.712 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 10:57:26.588 IST [2472] LOG:  checkpoint complete: wrote 160 buffers (1.0%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=17.242 s, sync=0.552 s, total=17.876 s; sync files=48, longest=0.023 s, average=0.012 s; distance=1234 kB, estimate=1246 kB; lsn=0/1A15F320, redo lsn=0/1A13F4C8
+2026-09-23 11:02:08.606 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:02:20.088 IST [2472] LOG:  checkpoint complete: wrote 102 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=10.994 s, sync=0.399 s, total=11.483 s; sync files=26, longest=0.091 s, average=0.016 s; distance=886 kB, estimate=1210 kB; lsn=0/1A240838, redo lsn=0/1A21CCD8
+2026-09-23 11:05:06.554 IST [20748] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:05:06.554 IST [19904] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:05:06.554 IST [22204] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:05:06.554 IST [8168] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:05:06.555 IST [10268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:05:06.555 IST [15832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:07:08.103 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:07:32.059 IST [2472] LOG:  checkpoint complete: wrote 215 buffers (1.3%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=23.182 s, sync=0.716 s, total=23.956 s; sync files=58, longest=0.045 s, average=0.013 s; distance=1597 kB, estimate=1597 kB; lsn=0/1A3CD5B8, redo lsn=0/1A3AC3D8
+2026-09-23 11:12:08.073 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:12:17.844 IST [2472] LOG:  checkpoint complete: wrote 87 buffers (0.5%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=9.388 s, sync=0.325 s, total=9.771 s; sync files=27, longest=0.025 s, average=0.013 s; distance=717 kB, estimate=1509 kB; lsn=0/1A47B158, redo lsn=0/1A45FA20
+2026-09-23 11:17:08.853 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:17:23.693 IST [2472] LOG:  checkpoint complete: wrote 132 buffers (0.8%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.226 s, sync=0.550 s, total=14.841 s; sync files=43, longest=0.091 s, average=0.013 s; distance=1077 kB, estimate=1466 kB; lsn=0/1A58B0C0, redo lsn=0/1A56D1A8
+2026-09-23 11:20:23.244 IST [8800] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:20:23.245 IST [548] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:20:23.245 IST [508] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:20:23.245 IST [16528] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:20:23.245 IST [14848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:20:23.245 IST [13840] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:22:08.694 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:22:25.062 IST [2472] LOG:  checkpoint complete: wrote 146 buffers (0.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=15.721 s, sync=0.581 s, total=16.369 s; sync files=49, longest=0.023 s, average=0.012 s; distance=1196 kB, estimate=1439 kB; lsn=0/1A6B8D98, redo lsn=0/1A6984F0
+2026-09-23 11:24:12.831 IST [20800] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:24:12.835 IST [15168] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:24:12.836 IST [2696] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:24:12.836 IST [1884] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:24:12.836 IST [22968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:24:12.836 IST [5688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:26:51.290 IST [21792] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:26:51.291 IST [6684] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:26:51.291 IST [19492] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:26:51.292 IST [18352] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:26:51.292 IST [2388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:26:51.292 IST [4052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:27:08.079 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:27:26.327 IST [2472] LOG:  checkpoint complete: wrote 162 buffers (1.0%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=17.469 s, sync=0.713 s, total=18.249 s; sync files=51, longest=0.092 s, average=0.014 s; distance=1636 kB, estimate=1636 kB; lsn=0/1A857C48, redo lsn=0/1A8317F8
+2026-09-23 11:32:08.341 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:32:28.243 IST [2472] LOG:  checkpoint complete: wrote 179 buffers (1.1%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=19.286 s, sync=0.554 s, total=19.902 s; sync files=44, longest=0.071 s, average=0.013 s; distance=1264 kB, estimate=1599 kB; lsn=0/1A995138, redo lsn=0/1A96DAA0
+2026-09-23 11:37:08.260 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:37:24.555 IST [2472] LOG:  checkpoint complete: wrote 147 buffers (0.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=15.833 s, sync=0.392 s, total=16.296 s; sync files=29, longest=0.027 s, average=0.014 s; distance=968 kB, estimate=1536 kB; lsn=0/1AA877B8, redo lsn=0/1AA5FD78
+2026-09-23 11:42:08.566 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:42:20.820 IST [2472] LOG:  checkpoint complete: wrote 109 buffers (0.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.739 s, sync=0.439 s, total=12.255 s; sync files=28, longest=0.080 s, average=0.016 s; distance=911 kB, estimate=1473 kB; lsn=0/1AB691E0, redo lsn=0/1AB43C28
+2026-09-23 11:47:08.824 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:47:27.779 IST [2472] LOG:  checkpoint complete: wrote 171 buffers (1.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=18.430 s, sync=0.459 s, total=18.955 s; sync files=35, longest=0.027 s, average=0.014 s; distance=1119 kB, estimate=1438 kB; lsn=0/1AC7F7F8, redo lsn=0/1AC5BB28
+2026-09-23 11:49:39.852 IST [18416] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:49:39.852 IST [19776] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:49:39.853 IST [21796] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:49:39.853 IST [23400] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:49:39.853 IST [19812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:52:08.789 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:52:28.052 IST [2472] LOG:  checkpoint complete: wrote 171 buffers (1.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=18.422 s, sync=0.777 s, total=19.264 s; sync files=61, longest=0.081 s, average=0.013 s; distance=1457 kB, estimate=1457 kB; lsn=0/1ADEA9D8, redo lsn=0/1ADC8078
+2026-09-23 11:57:08.069 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 11:57:20.404 IST [10660] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 11:57:29.905 IST [2472] LOG:  checkpoint complete: wrote 196 buffers (1.2%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=21.135 s, sync=0.640 s, total=21.837 s; sync files=50, longest=0.098 s, average=0.013 s; distance=1633 kB, estimate=1633 kB; lsn=0/1AF77D80, redo lsn=0/1AF60518
+2026-09-23 12:02:08.919 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 12:02:28.492 IST [2472] LOG:  checkpoint complete: wrote 175 buffers (1.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=18.843 s, sync=0.632 s, total=19.574 s; sync files=43, longest=0.057 s, average=0.015 s; distance=1105 kB, estimate=1580 kB; lsn=0/1B074BB0, redo lsn=0/1B074B20
+2026-09-23 12:07:08.504 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 12:07:16.120 IST [2472] LOG:  checkpoint complete: wrote 67 buffers (0.4%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.223 s, sync=0.322 s, total=7.616 s; sync files=24, longest=0.046 s, average=0.014 s; distance=470 kB, estimate=1469 kB; lsn=0/1B0EA698, redo lsn=0/1B0EA608
+2026-09-23 12:12:08.137 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 12:12:28.912 IST [2472] LOG:  checkpoint complete: wrote 186 buffers (1.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=20.050 s, sync=0.664 s, total=20.776 s; sync files=55, longest=0.025 s, average=0.013 s; distance=1326 kB, estimate=1455 kB; lsn=0/1B235F50, redo lsn=0/1B235EC0
+2026-09-23 12:17:08.926 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 12:17:14.792 IST [2472] LOG:  checkpoint complete: wrote 51 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.494 s, sync=0.303 s, total=5.867 s; sync files=25, longest=0.038 s, average=0.013 s; distance=249 kB, estimate=1334 kB; lsn=0/1B2744A8, redo lsn=0/1B274418
+2026-09-23 12:32:08.814 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 12:32:24.051 IST [2472] LOG:  checkpoint complete: wrote 135 buffers (0.8%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.540 s, sync=0.612 s, total=15.238 s; sync files=45, longest=0.069 s, average=0.014 s; distance=865 kB, estimate=1287 kB; lsn=0/1B34CA48, redo lsn=0/1B34C9B8
+2026-09-23 12:37:08.055 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 12:37:21.586 IST [2472] LOG:  checkpoint complete: wrote 120 buffers (0.7%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.928 s, sync=0.533 s, total=13.531 s; sync files=41, longest=0.056 s, average=0.013 s; distance=779 kB, estimate=1236 kB; lsn=0/1B40F960, redo lsn=0/1B40F908
+2026-09-23 12:38:30.462 IST [21172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 12:38:30.464 IST [21824] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 12:38:30.464 IST [10820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 12:38:30.464 IST [6336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 12:38:30.465 IST [18852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 12:38:30.465 IST [19708] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-23 12:42:08.605 IST [2472] LOG:  checkpoint starting: time
+2026-09-23 12:42:22.032 IST [2472] LOG:  checkpoint complete: wrote 119 buffers (0.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=12.818 s, sync=0.532 s, total=13.427 s; sync files=46, longest=0.023 s, average=0.012 s; distance=812 kB, estimate=1194 kB; lsn=0/1B509D20, redo lsn=0/1B4DAB48
+2026-09-23 13:10:20.032 IST [20420] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35227, 64-bit
+2026-09-23 13:10:20.032 IST [20420] LOG:  listening on IPv4 address "127.0.0.1", port 55432
+2026-09-23 13:10:20.264 IST [13724] LOG:  database system was interrupted; last known up at 2026-09-23 12:42:22 IST
+2026-09-23 13:10:20.775 IST [13724] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-23 13:10:20.884 IST [13724] LOG:  redo starts at 0/1B4DAB48
+2026-09-23 13:10:20.954 IST [13724] LOG:  invalid record length at 0/1B51E8E8: expected at least 24, got 0
+2026-09-23 13:10:20.954 IST [13724] LOG:  redo done at 0/1B51E8B0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.06 s
+2026-09-23 13:10:20.980 IST [19484] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-23 13:10:21.750 IST [19484] LOG:  checkpoint complete: wrote 57 buffers (0.3%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.689 s, total=0.794 s; sync files=31, longest=0.048 s, average=0.023 s; distance=271 kB, estimate=271 kB; lsn=0/1B51E8E8, redo lsn=0/1B51E8E8
+2026-09-23 13:10:21.785 IST [20420] LOG:  database system is ready to accept connections
+2026-09-23 13:15:20.759 IST [19484] LOG:  checkpoint starting: time
+2026-09-23 13:15:29.094 IST [19484] LOG:  checkpoint complete: wrote 72 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.756 s, sync=0.519 s, total=8.335 s; sync files=39, longest=0.039 s, average=0.014 s; distance=440 kB, estimate=440 kB; lsn=0/1B58CAF0, redo lsn=0/1B58CA60
+2026-09-23 13:20:20.106 IST [19484] LOG:  checkpoint starting: time
+2026-09-23 13:20:32.081 IST [19484] LOG:  checkpoint complete: wrote 106 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.413 s, sync=0.476 s, total=11.975 s; sync files=41, longest=0.027 s, average=0.012 s; distance=763 kB, estimate=763 kB; lsn=0/1B64B7B0, redo lsn=0/1B64B720
+2026-09-23 13:25:20.098 IST [19484] LOG:  checkpoint starting: time
+2026-09-23 13:25:32.028 IST [19484] LOG:  checkpoint complete: wrote 105 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.317 s, sync=0.563 s, total=11.931 s; sync files=42, longest=0.045 s, average=0.014 s; distance=685 kB, estimate=755 kB; lsn=0/1B6F6C28, redo lsn=0/1B6F6B98
+2026-09-23 13:30:20.034 IST [19484] LOG:  checkpoint starting: time
+2026-09-23 13:30:27.107 IST [19484] LOG:  checkpoint complete: wrote 61 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.565 s, sync=0.428 s, total=7.073 s; sync files=26, longest=0.027 s, average=0.017 s; distance=364 kB, estimate=716 kB; lsn=0/1B751ED8, redo lsn=0/1B751E48
+2026-09-23 13:35:20.116 IST [19484] LOG:  checkpoint starting: time
+2026-09-23 13:35:28.621 IST [19484] LOG:  checkpoint complete: wrote 74 buffers (0.5%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.987 s, sync=0.443 s, total=8.506 s; sync files=30, longest=0.025 s, average=0.015 s; distance=428 kB, estimate=687 kB; lsn=0/1B7BE648, redo lsn=0/1B7BD1C8
+2026-09-23 13:40:20.636 IST [19484] LOG:  checkpoint starting: time
+2026-09-23 13:40:22.540 IST [19484] LOG:  checkpoint complete: wrote 15 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.621 s, sync=0.219 s, total=1.905 s; sync files=11, longest=0.044 s, average=0.020 s; distance=78 kB, estimate=626 kB; lsn=0/1B7D0C60, redo lsn=0/1B7D0C08
+2026-09-23 13:46:08.886 IST [20420] LOG:  background worker "logical replication launcher" (PID 9280) was terminated by exception 0x40010004
+2026-09-23 13:46:08.886 IST [20420] HINT:  See C include file "ntstatus.h" for a description of the hexadecimal value.
+2026-09-23 13:46:08.886 IST [20420] LOG:  terminating any other active server processes
+2026-09-23 13:46:08.894 IST [20420] LOG:  all server processes terminated; reinitializing
+2026-09-23 13:46:08.934 IST [20736] LOG:  database system was interrupted; last known up at 2026-09-23 13:40:22 IST
+2026-09-23 13:46:09.254 IST [20736] LOG:  database system was not properly shut down; automatic recovery in progress
+2026-09-23 13:46:09.265 IST [20736] LOG:  redo starts at 0/1B7D0C08
+2026-09-23 13:46:09.265 IST [20736] LOG:  invalid record length at 0/1B7D0D10: expected at least 24, got 0
+2026-09-23 13:46:09.265 IST [20736] LOG:  redo done at 0/1B7D0CD8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2026-09-23 13:46:09.282 IST [6128] LOG:  checkpoint starting: end-of-recovery immediate wait
+2026-09-23 13:46:09.375 IST [6128] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.032 s, total=0.108 s; sync files=2, longest=0.026 s, average=0.016 s; distance=0 kB, estimate=0 kB; lsn=0/1B7D0D10, redo lsn=0/1B7D0D10
+2026-09-23 13:46:09.388 IST [20420] LOG:  database system is ready to accept connections
