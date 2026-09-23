@@ -1,0 +1,220 @@
+/*
+  PATH: src/styles/pages-theme-patch.css
+  Import ONCE in main.jsx or App.jsx:  import "./styles/pages-theme-patch.css";
+
+  This file overrides ALL hardcoded green colours across every page
+  using the CSS variables ThemeContext injects on <html>.
+  No page files need to change — this works automatically.
+*/
+
+/* ══ BUTTONS ══════════════════════════════════════════════════════════════ */
+
+/* "+ Add" rounded pill button (Roles, Contacts, Expenses etc.) */
+button[style*="22c55e"],
+button[style*="16a34a"],
+button[style*="linear-gradient(135deg, #22c55e"],
+button[style*="linear-gradient(135deg, #27ae60"],
+button[style*="linear-gradient(135deg, #1a7a4a"],
+button[style*="linear-gradient(135deg, #2d6a4f"],
+button[style*="linear-gradient(135deg, #1a6b3c"] {
+  background: linear-gradient(135deg, var(--manod-accent-mid, #74c69d) 0%, var(--manod-accent, #2d6a4f) 100%) !important;
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--manod-accent, #2d6a4f) 40%, transparent) !important;
+}
+
+/* Active pagination "1" button */
+button[style*="background: #4f46e5"],
+button[style*='background:"#4f46e5"'],
+button[style*="background:#4f46e5"],
+button[style*="background: #16a34a"],
+button[style*="background:#16a34a"] {
+  background: var(--manod-accent, #2d6a4f) !important;
+  border-color: var(--manod-accent, #2d6a4f) !important;
+}
+
+/* Settings tab active buttons */
+button[style*="background: linear-gradient(135deg, #27ae60"] {
+  background: linear-gradient(135deg, var(--manod-accent-mid) 0%, var(--manod-accent) 100%) !important;
+}
+
+/* ══ TABLE HEADERS ════════════════════════════════════════════════════════ */
+
+/* thead background — targets the light green #f7fafc and similar */
+thead tr,
+tr[style*="background: #f7fafc"],
+tr[style*='background:"#f7fafc"'],
+tr[style*="background: linear-gradient(90deg,"] {
+  background: var(--manod-accent-light, #e8f5ed) !important;
+}
+
+/* th text color */
+th[style*="color: #4a5568"],
+th[style*='color:"#4a5568"'],
+th[style*="color: #2e7d32"],
+th[style*="color: #374151"],
+th[style*="color: var(--green-700)"] {
+  color: var(--manod-accent, #2d6a4f) !important;
+}
+
+/* ══ TABLE HIGHLIGHTS & ROW HOVER ════════════════════════════════════════ */
+
+/* Row hover — #f8fdf9, #f7fafc, #f4faf4 etc. */
+.table-row:hover td,
+.tr-hover:hover td {
+  background: var(--manod-accent-light, #e8f5ed) !important;
+}
+
+/* ══ LINKS & ACCENT TEXT ══════════════════════════════════════════════════ */
+
+/* Invoice IDs, "View All →" links coloured green */
+[style*="color: #2d6a4f"],
+[style*='color:"#2d6a4f"'],
+[style*="color: #2e7d32"],
+[style*="color: #1a6b3c"],
+[style*="color: #166534"],
+[style*="color: #16a34a"] {
+  color: var(--manod-accent, #2d6a4f) !important;
+}
+
+/* "View All →" button background */
+button[style*="background: #f0fdf4"],
+button[style*='background:"#f0fdf4"'],
+button[style*="background:#f0fdf4"] {
+  background: var(--manod-accent-light, #e8f5ed) !important;
+  color: var(--manod-accent, #2d6a4f) !important;
+}
+
+/* ══ CHECKBOXES & INPUTS ══════════════════════════════════════════════════ */
+
+input[type="checkbox"] {
+  accent-color: var(--manod-accent, #2d6a4f) !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--manod-accent, #2d6a4f) !important;
+  box-shadow: 0 0 0 2px var(--manod-focus-ring, rgba(45,106,79,0.18)) !important;
+  outline: none !important;
+}
+
+/* ══ SETTINGS TABS ════════════════════════════════════════════════════════ */
+
+/* Active settings tab — targets the green gradient button */
+button[style*="linear-gradient(135deg, #27ae60 0%, #1a6b3c"],
+button[style*="linear-gradient(135deg,#27ae60"] {
+  background: linear-gradient(135deg, var(--manod-accent-mid) 0%, var(--manod-accent) 100%) !important;
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--manod-accent) 30%, transparent) !important;
+}
+
+/* ══ STOCK ADJUSTMENTS ════════════════════════════════════════════════════ */
+
+/* .sa-table thead gradient */
+.sa-table thead tr {
+  background: linear-gradient(90deg, color-mix(in srgb, var(--manod-accent) 13%, transparent), color-mix(in srgb, var(--manod-accent-mid) 8%, transparent)) !important;
+}
+.sa-table th { color: var(--manod-accent, #2d6a4f) !important; }
+.sa-table tbody tr:hover { background: var(--manod-accent-light, #e8f5ed) !important; }
+
+/* sa-btn-add */
+.sa-btn-add {
+  background: linear-gradient(135deg, var(--sb-icon-color, #2d6a4f) 0%, var(--manod-accent-mid, #74c69d) 100%) !important;
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--manod-accent) 35%, transparent) !important;
+}
+
+/* sa-btn-save */
+.sa-btn-save {
+  background: linear-gradient(135deg, var(--sb-logo-bg, #1a3d2b) 0%, var(--manod-accent) 50%, var(--manod-accent-mid) 100%) !important;
+  box-shadow: 0 4px 18px color-mix(in srgb, var(--manod-accent) 45%, transparent) !important;
+}
+
+/* sa-page-btn active */
+.sa-page-btn:not(:disabled):nth-child(2) {
+  background: var(--manod-accent, #2d6a4f) !important;
+  color: #fff !important;
+  border-color: var(--manod-accent, #2d6a4f) !important;
+}
+
+/* export button hover */
+.sa-export-btn::before { background: var(--manod-accent-light, #e8f5ed) !important; }
+.sa-export-btn:hover { border-color: var(--manod-accent-mid, #74c69d) !important; color: var(--sb-logo-bg, #1a3d2b) !important; }
+
+/* sa search focus */
+.sa-search-input:focus { border-color: var(--manod-accent, #2d6a4f) !important; }
+
+/* ══ CONTACTS PAGE ════════════════════════════════════════════════════════ */
+
+/* Fixed "+ Add" button (Contacts) */
+button[style*="position: fixed"][style*="border-radius: 50"],
+button[style*="position:fixed"][style*="borderRadius:50"] {
+  background: linear-gradient(135deg, var(--manod-accent-mid) 0%, var(--manod-accent) 100%) !important;
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--manod-accent) 45%, transparent) !important;
+}
+
+/* Advanced filter "Apply Filters" button */
+button[style*="background: #16a34a"] {
+  background: var(--manod-accent, #2d6a4f) !important;
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--manod-accent) 35%, transparent) !important;
+}
+
+/* More Info / Add Person toggle buttons */
+button[style*="background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%)"] {
+  background: linear-gradient(135deg, var(--manod-accent-mid) 0%, var(--manod-accent) 100%) !important;
+}
+
+/* ══ REPORTS PAGE ═════════════════════════════════════════════════════════ */
+
+/* KPI accent card */
+[style*="background: linear-gradient(135deg, #2e7d32, #43a047)"],
+[style*="background:linear-gradient(135deg,#2e7d32"] {
+  background: linear-gradient(135deg, var(--sb-logo-bg, #1a3d2b) 0%, var(--manod-accent, #2d6a4f) 100%) !important;
+}
+
+/* DataTable thead */
+table.sa-table thead tr,
+[style*="background: linear-gradient(90deg, #2e7d32"] {
+  background: linear-gradient(90deg, color-mix(in srgb, var(--manod-accent) 13%, transparent), color-mix(in srgb, var(--manod-accent-mid) 8%, transparent)) !important;
+}
+
+/* Run Report button */
+button[style*="background: linear-gradient(135deg, #2e7d32, #43a047)"] {
+  background: linear-gradient(135deg, var(--sb-logo-bg) 0%, var(--manod-accent) 100%) !important;
+}
+
+/* Pagination active page */
+button[style*="background: #2e7d32"],
+[style*="background: var(--green-800)"] {
+  background: var(--manod-accent, #2d6a4f) !important;
+}
+
+/* ══ USERS PAGE STEP PROGRESS ═════════════════════════════════════════════ */
+
+/* Step circle active/done */
+[style*="background: linear-gradient(135deg, #2d6a4f, #40916c)"],
+[style*="background:linear-gradient(135deg,#2d6a4f,#40916c)"],
+[style*="background: linear-gradient(135deg, #2d6a4f"],
+div[style*="background: #2d6a4f"] {
+  background: linear-gradient(135deg, var(--manod-accent-mid) 0%, var(--manod-accent) 100%) !important;
+}
+
+/* Step connector line (done) */
+div[style*="background: #2d6a4f"][style*="height: 3"] {
+  background: var(--manod-accent, #2d6a4f) !important;
+}
+
+/* ══ PAGE BACKGROUNDS ═════════════════════════════════════════════════════ */
+
+/* page divs with hardcoded #f0f4f1 or #f0f6f2 */
+div[style*="background: #f0f4f1"],
+div[style*="background:#f0f4f1"],
+div[style*="background: #f4f6f8"],
+div[style*="background:#f4f6f8"],
+div[style*="background: #f0f6f2"],
+div[style*="background:#f0f6f2"],
+[style*="minHeight: \"100vh\""][style*="background: #f"] {
+  background: var(--manod-page-bg, #f0f4f1) !important;
+}
+
+/* ══ SCROLLBAR ════════════════════════════════════════════════════════════ */
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--manod-accent-mid, #74c69d); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--manod-accent, #2d6a4f); }

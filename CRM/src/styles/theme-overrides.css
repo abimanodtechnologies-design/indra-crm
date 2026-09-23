@@ -1,0 +1,147 @@
+/* ============================================================
+   theme-overrides.css
+   PATH: src/styles/theme-overrides.css  (or paste into App.css)
+
+   Import this ONCE in main.jsx or App.jsx:
+     import "./styles/theme-overrides.css";
+
+   These rules use the CSS variables ThemeContext injects on
+   <html> so every page recolours automatically on theme switch.
+   ============================================================ */
+
+/* ── Page background ── */
+body, #root, .app-root {
+  background: var(--manod-page-bg, #f0f4f1) !important;
+  transition: background 0.3s ease;
+}
+
+/* ── Welcome / hero banner on Dashboard ── */
+.dashboard-welcome,
+[class*="welcome-banner"],
+[class*="welcome-card"],
+[class*="hero-section"] {
+  background: var(--manod-welcome-bg) !important;
+  color: var(--manod-welcome-text) !important;
+  transition: background 0.3s ease;
+}
+[class*="welcome-banner"] p,
+[class*="welcome-card"] p,
+[class*="welcome"] .subtitle,
+[class*="welcome"] .sub {
+  color: var(--manod-welcome-sub) !important;
+}
+
+/* ── Period filter buttons (Today / This Week / This Month / This Year) ── */
+.period-btn,
+[class*="period-btn"],
+[class*="filter-tab"],
+[class*="time-btn"] {
+  border-color: var(--manod-accent) !important;
+  color: var(--manod-accent) !important;
+}
+.period-btn.active,
+[class*="period-btn"][class*="active"],
+[class*="filter-tab"][class*="active"],
+[class*="time-btn"][class*="active"] {
+  background: var(--manod-btn-active-bg) !important;
+  color: #fff !important;
+}
+
+/* ── Stat / summary cards ── */
+.stat-card, .summary-card, .metric-card,
+[class*="stat-card"], [class*="summary-card"], [class*="metric-card"],
+[class*="dashboard-card"], [class*="kpi-card"] {
+  border-top: 3px solid var(--manod-card-border-top) !important;
+  transition: border-color 0.3s ease;
+}
+
+/* Card icon circle */
+.card-icon, [class*="card-icon"], [class*="stat-icon"] {
+  background: var(--manod-card-icon-bg) !important;
+  color: var(--manod-card-icon-color) !important;
+}
+
+/* ── Primary action buttons ── */
+.btn-primary, [class*="btn-primary"],
+button[class*="primary"], [class*="button-primary"],
+[class*="submit-btn"] {
+  background: var(--manod-btn-primary-bg) !important;
+  color: var(--manod-btn-primary-text) !important;
+  border-color: var(--manod-btn-primary-bg) !important;
+}
+.btn-primary:hover, [class*="btn-primary"]:hover {
+  background: var(--manod-btn-active-bg) !important;
+  border-color: var(--manod-btn-active-bg) !important;
+}
+
+/* ── Table headers ── */
+thead tr,
+.table thead tr,
+[class*="table-header"],
+[class*="table-head"] {
+  background: var(--manod-accent-light) !important;
+}
+thead th, [class*="table-head"] th {
+  color: var(--manod-accent) !important;
+}
+
+/* ── Tabs / nav pills ── */
+.nav-tab.active, [class*="tab-active"],
+.pill-active, [class*="pill"][class*="active"],
+[class*="tab"][class*="active"] {
+  background: var(--manod-accent) !important;
+  color: #fff !important;
+}
+.nav-tab, [class*="nav-tab"] {
+  color: var(--manod-accent) !important;
+}
+
+/* ── Badges ── */
+.badge-success, .badge-primary,
+[class*="badge-success"], [class*="badge-primary"] {
+  background: var(--manod-accent-light) !important;
+  color: var(--manod-accent) !important;
+}
+
+/* ── Section headings that use the brand colour ── */
+h1[class*="brand"], h2[class*="brand"],
+[class*="section-title"], [class*="page-title"] {
+  color: var(--manod-accent) !important;
+}
+
+/* ── Links ── */
+a:not([class*="sidebar"]):not([class*="nav"]) {
+  color: var(--manod-link) !important;
+}
+
+/* ── Focus rings ── */
+input:focus, select:focus, textarea:focus,
+button:focus-visible {
+  border-color: var(--manod-accent) !important;
+  box-shadow: 0 0 0 3px var(--manod-focus-ring) !important;
+  outline: none;
+}
+
+/* ── Recharts bars & lines — override by targeting SVG fills ── */
+/* Primary series */
+.recharts-layer .recharts-bar-rectangle > path,
+.recharts-layer.recharts-bar-rectangle path {
+  fill: var(--manod-chart-1) !important;
+}
+/* Secondary series (second bar group) */
+.recharts-layer:nth-child(2) .recharts-bar-rectangle > path {
+  fill: var(--manod-chart-2) !important;
+}
+/* Line chart strokes */
+.recharts-line .recharts-line-curve {
+  stroke: var(--manod-chart-1) !important;
+}
+
+/* ── Scrollbar accent ── */
+::-webkit-scrollbar-thumb {
+  background: var(--manod-accent-mid) !important;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--manod-accent) !important;
+}

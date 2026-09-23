@@ -1,0 +1,132 @@
+﻿import { createContext, useContext, useState, useEffect } from "react";
+import { API_BASE_URL } from "../api/config";
+
+const PermissionsContext = createContext({
+  permissions: [],
+  hasPermission: () => false,
+  loaded: false,
+  loadPermissions: async () => {},
+  clearPermissions: () => {},
+  isAdmin: false,
+  userRole: "",
+  userName: "",
+  userEmail: "",
+  userAvatar: "",
+});
+
+function decodeJWT(token) {
+  try {
+    const payload = token.split(".")[1];
+    const decoded = JSON.parse(atob(payload.replace(/-/g, "+").replace(/_/g, "/")));
+    return decoded;
+  } catch {
+    return null;
+  }
+}
+
+export function PermissionsProvider({ children }) {
+  const [permissions, setPermissions] = useState(null);
+  const [permissionError, setPermissionError] = useState("");
+  const [loaded,      setLoaded]      = useState(false);
+  const [isAdmin,     setIsAdmin]     = useState(false);
+  const [userRole,    setUserRole]    = useState("");
+  const [userName,    setUserName]    = useState("");
+  const [userEmail,   setUserEmail]   = useState("");
+  const [userAvatar,  setUserAvatar]  = useState("A");
+
+  const loadPermissions = async () => {
+    setPermissionError("");
+    setLoaded(false); // Prevent role redirects while login permissions are loading.
+    const token = localStorage.getItem("manod_token");
+    if (!token) {
+      setPermissions([]);
+      setIsAdmin(false);
+      setLoaded(true);
+      return;
+    }
+
+    const jwt = decodeJWT(token);
+    if (jwt) {
+      const name  = jwt.full_name || jwt.name || jwt.email?.split("@")[0] || "User";
+      const email = jwt.email || "";
+      const role  = jwt.role  || "";
+      setUserName(name);
+      setUserEmail(email);
+      setUserRole(role);
+      setUserAvatar((name[0] || "U").toUpperCase());
+    }
+
+    try {
+      const res  = await fetch(`${API_BASE_URL}/auth/my-permissions`, {
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      const data = await res.json();
+      if (res.status === 401) {
+        localStorage.removeItem("manod_token");
+        window.location.replace("/login");
+        return;
+      }
+      if (!res.ok || !data.success) throw new Error(data.error || "Unable to load CRM permissions.");
+
+      if (data.success) {
+        setPermissions(data.permissions);
+        setIsAdmin(!!data.isAdmin);
+        if (data.role) {
+          setUserRole(data.role);
+        }
+      } else {
+        setPermissions([]);
+        setIsAdmin(false);
+      }
+    } catch {
+      setPermissions([]);
+      setIsAdmin(false);
+      setPermissionError("Cannot load CRM permissions. Check the local server connection and click Retry.");
+    } finally {
+      setLoaded(true);
+    }
+  };
+
+  const clearPermissions = () => {
+    setPermissions([]);
+    setIsAdmin(false);
+    setLoaded(false);
+    setUserRole("");
+    setUserName("");
+    setUserEmail("");
+    setUserAvatar("A");
+  };
+
+  const hasPermission = (group, name) => {
+    if (!permissions) return false;
+    if (isAdmin) return true;
+    return permissions.includes(`${group}::${name}`);
+  };
+
+  useEffect(() => {
+    loadPermissions();
+  }, []);
+
+  return (
+    <PermissionsContext.Provider
+      value={{
+        permissionError,
+        permissions: permissions || [],
+        hasPermission,
+        loaded,
+        loadPermissions,
+        clearPermissions,
+        isAdmin,
+        userRole,
+        userName,
+        userEmail,
+        userAvatar,
+      }}
+    >
+      {children}
+    </PermissionsContext.Provider>
+  );
+}
+
+export const usePermissions = () => useContext(PermissionsContext);
+
