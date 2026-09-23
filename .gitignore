@@ -6,3 +6,5 @@ local/backups/
 local/config.json
 local/FIRST-LOGIN.txt
 dist/
+
+**/.git-nested-backup/
